@@ -29,284 +29,94 @@ var Log = {
 function init(){
     //init data
     var json = {
-        id: "1",
-        name: "You approach the border. How do you enter?",
-        data: {},
+        id: "1", name: "You approach the border. How do you enter?", data: {},
         children: [{
-            id: "21",
-            name: "Go to a port of entry",
-            data: {},
+            id: "21", name: "Go to a port of entry", data: {},
             children: [{
-                id: "31",
-                name: "Do you have a visa to enter the US?",
-                data: {},
+                id: "31", name: "Do you have a visa to enter the US?", data: {},
                 children: [{
-                    id: "31Y",
-                    name: "Yes",
-                    data: {},
+                    id: "31Y", name: "Yes", data: {},
                     children: [{
-                        id: "41",
-                        name: "Apply for asylum affirmatively with USCIS",
-                        data: {},
+                        id: "41", name: "Apply for asylum affirmatively with USCIS", data: {},
                         children: []
                     }]
                 }, {
-                    id: "31N",
-                    name: "No",
-                    data: {},
+                    id: "31N", name: "No", data: {},
                     children: [{
-                        id: "42",
-                        name: "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
-                        data: {},
+                        id: "42", name: "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?", data: {},
                         children: [{
-                            id: "42Y",
-                            name: "Yes",
-                            data: {},
-                            children: []
-                        }, {
-                            id: "42N",
-                            name: "No",
-                            data: {},
+                            id: "42Y", name: "Yes", data: {},
                             children: [{
-                                id: "42N??",
-                                name: "[Unknown]",
-                                data: {},
+                                id: "51", name: "Processed at port of entry by CBP OFO", data: {},
+                                children: [{
+                                    id: "61", name: "Are you put on parole + ATD or issued a Notice to Appear?", data: {},
+                                    children: [{
+                                        id: "61Y", name: "Yes", data: {},
+                                        children: [{
+                                            id: "71", name: "Non-detained Immigration Court process", data: {},
+                                            children: [{
+                                                id: "81", name: "Did/Can you apply for asylum or other form of relief?", data: {},
+                                                children: [{
+                                                    id: "81Y", name: "Yes", data: {},
+                                                    children: [{
+                                                        id: "91", name: "Did you win asylum or another form of relief?", data: {},
+                                                        children: [{
+                                                            id: "91Y", name: "Yes", data: {},
+                                                            children: [{
+                                                                id: "101", name: "Granted relief", data: {},
+                                                                children: []
+                                                            }, {
+                                                                id: "91N", name: "No", data: {},
+                                                                children: [{
+                                                                    id: "102", name: "Can you appeal?", data: {},
+                                                                    children: [{
+                                                                        id: "102Y", name: "Yes", data: {},
+                                                                        children: [{
+                                                                            id: "XX", name: "", data: {},
+                                                                            children: []
+                                                                        }, {
+                                                                        id: "102N", name: "No", data: {},
+                                                                        children: [{
+                                                                            id: "XX", name: "", data: {},
+                                                                            children: []
+                                                                            }]
+                                                                        }]
+                                                                    }]
+                                                                }]
+                                                            }]
+                                                    }, {
+                                                        id: "81N", name: "No", data: {},
+                                                        children: [{
+                                                            id: "92", name: "Issued order of removal", data: {},
+                                                            children: []
+                                                        }]
+                                                    }]
+                                                }]
+                                            }]
+                                        }, {
+                                        id: "61N", name: "No", data: {},
+                                        children: [{
+                                            id: "72", name: "14 - Title 8 ICE detention", data: {},
+                                            children: []
+                                        }]
+                                    }]
+                                }]
+                            }, {
+                            id: "42N", name: "No", data: {},
+                            children: [{
+                                id: "42N??", name: "[Unknown]", data: {},
                                 children: []
                             }]
                         }]
-                    }, {
-                        id: "node49",
-                        name: "4.9",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node410",
-                        name: "4.10",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node411",
-                        name: "4.11",
-                        data: {},
-                        children: []
-                    }]
-                }, ]
-            }, {
-                id: "node222",
-                name: "2.22",
-                data: {},
-                children: [{
-                    id: "node323",
-                    name: "3.23",
-                    data: {},
-                    children: [{
-                        id: "node424",
-                        name: "4.24",
-                        data: {},
-                        children: []
                     }]
                 }]
             }]
-        }, {
-            id: "node1.2",
-            name: "Cross the border between ports of entry",
-            data: {},
-            children: [{
-                id: "node226",
-                name: "2.26",
-                data: {},
-                children: [{
-                    id: "node327",
-                    name: "3.27",
-                    data: {},
-                    children: [{
-                        id: "node428",
-                        name: "4.28",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node429",
-                        name: "4.29",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node330",
-                    name: "3.30",
-                    data: {},
-                    children: [{
-                        id: "node431",
-                        name: "4.31",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node332",
-                    name: "3.32",
-                    data: {},
-                    children: [{
-                        id: "node433",
-                        name: "4.33",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node434",
-                        name: "4.34",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node435",
-                        name: "4.35",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node436",
-                        name: "4.36",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node237",
-                name: "2.37",
-                data: {},
-                children: [{
-                    id: "node338",
-                    name: "3.38",
-                    data: {},
-                    children: [{
-                        id: "node439",
-                        name: "4.39",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node440",
-                        name: "4.40",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node441",
-                        name: "4.41",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node342",
-                    name: "3.42",
-                    data: {},
-                    children: [{
-                        id: "node443",
-                        name: "4.43",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node344",
-                    name: "3.44",
-                    data: {},
-                    children: [{
-                        id: "node445",
-                        name: "4.45",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node446",
-                        name: "4.46",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node447",
-                        name: "4.47",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node348",
-                    name: "3.48",
-                    data: {},
-                    children: [{
-                        id: "node449",
-                        name: "4.49",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node450",
-                        name: "4.50",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node451",
-                        name: "4.51",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node452",
-                        name: "4.52",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node453",
-                        name: "4.53",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node354",
-                    name: "3.54",
-                    data: {},
-                    children: [{
-                        id: "node455",
-                        name: "4.55",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node456",
-                        name: "4.56",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node457",
-                        name: "4.57",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }, {
-                id: "node258",
-                name: "2.58",
-                data: {},
-                children: [{
-                    id: "node359",
-                    name: "3.59",
-                    data: {},
-                    children: [{
-                        id: "node460",
-                        name: "4.60",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node461",
-                        name: "4.61",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node462",
-                        name: "4.62",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node463",
-                        name: "4.63",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node464",
-                        name: "4.64",
-                        data: {},
-                        children: []
-                    }]
-                }]
-            }]
+        }]
+    }]
+}]
+}, {
+            id: "22", name: "Cross the border between ports of entry", data: {},
+            children: []
         }]
     };
     //end
@@ -343,11 +153,11 @@ function init(){
         },
         
         onBeforeCompute: function(node){
-            Log.write("loading " + node.name);
+            Log.write("You chose: " + node.name);
         },
         
         onAfterCompute: function(){
-            Log.write("done");
+            Log.write(" " + node.name);
         },
         
         //This method is called on DOM label creation.
@@ -420,7 +230,7 @@ function init(){
     //compute node positions and layout
     st.compute();
     //optional: make a translation of the tree
-    st.geom.translate(new $jit.Complex(-200, 0), "current");
+    st.geom.translate(new $jit.Complex(0, 0), "current");
     //emulate a click on the root node.
     st.onClick(st.root);
     //end
@@ -434,16 +244,16 @@ function init(){
     
     function changeHandler() {
         if(this.checked) {
-            left.disabled = top.disabled = bottom.disabled = right.disabled = true;
+            top.disabled = left.disabled = bottom.disabled = right.disabled = true;
             st.switchPosition(this.value, "animate", {
                 onComplete: function(){
-                    left.disabled = top.disabled = bottom.disabled = right.disabled = false;
+                    top.disabled = left.disabled = bottom.disabled = right.disabled = false;
                 }
             });
         }
     };
     
-    top.onchange = left.onchange = bottom.onchange = right.onchange = changeHandler;
+    left.onchange = bottom.onchange = right.onchange = top.onchange = changeHandler;
     //end
 
 }
