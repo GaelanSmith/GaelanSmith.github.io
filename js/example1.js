@@ -73,13 +73,13 @@ function init(){
                                                                     children: [{
                                                                         id: "102Y", name: "Yes", data: {},
                                                                         children: [{
-                                                                            id: "XX", name: "", data: {},
+                                                                            id: "XXY", name: "Did you win your appeal?", data: {},
                                                                             children: []
                                                                             }]
                                                                         }, {
                                                                         id: "102N", name: "No", data: {},
                                                                         children: [{
-                                                                            id: "XX", name: "", data: {},
+                                                                            id: "XXN", name: "Issued order of removal", data: {},
                                                                             children: []
                                                                             }]
                                                                         }]
