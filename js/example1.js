@@ -65,8 +65,8 @@ function init(){
                                                             children: [{
                                                                 id: "101", name: "Granted relief", data: {},
                                                                 children: []
-                                                            }]
-                                                        }, {
+                                                                }]
+                                                            }, {
                                                                 id: "91N", name: "No", data: {},
                                                                 children: [{
                                                                     id: "102", name: "Can you appeal?", data: {},
@@ -75,6 +75,7 @@ function init(){
                                                                         children: [{
                                                                             id: "XX", name: "", data: {},
                                                                             children: []
+                                                                            }]
                                                                         }, {
                                                                         id: "102N", name: "No", data: {},
                                                                         children: [{
@@ -83,9 +84,9 @@ function init(){
                                                                             }]
                                                                         }]
                                                                     }]
-                                                                        }]
-                                                                    }]
                                                                 }]
+                                                            }]
+                                                                
                                                             
                                                     }, {
                                                         id: "81N", name: "No", data: {},
