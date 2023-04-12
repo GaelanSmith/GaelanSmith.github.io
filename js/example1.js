@@ -29,36 +29,51 @@ var Log = {
 function init(){
     //init data
     var json = {
-        id: "node08",
+        id: "1",
         name: "You approach the border. How do you enter?",
         data: {},
         children: [{
-            id: "node08.1",
+            id: "21",
             name: "Go to a port of entry",
             data: {},
             children: [{
-                id: "node24",
-                name: "2.4",
+                id: "31",
+                name: "Do you have a visa to enter the US?",
                 data: {},
                 children: [{
-                    id: "node35",
-                    name: "3.5",
+                    id: "31Y",
+                    name: "Yes",
                     data: {},
                     children: [{
-                        id: "node46",
-                        name: "4.6",
+                        id: "41",
+                        name: "Apply for asylum affirmatively with USCIS",
                         data: {},
                         children: []
                     }]
                 }, {
-                    id: "node37",
-                    name: "3.7",
+                    id: "31N",
+                    name: "No",
                     data: {},
                     children: [{
-                        id: "node48",
-                        name: "4.8",
+                        id: "42",
+                        name: "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
                         data: {},
-                        children: []
+                        children: [{
+                            id: "42Y",
+                            name: "Yes",
+                            data: {},
+                            children: []
+                        }, {
+                            id: "42N",
+                            name: "No",
+                            data: {},
+                            children: [{
+                                id: "42N??",
+                                name: "[Unknown]",
+                                data: {},
+                                children: []
+                            }]
+                        }]
                     }, {
                         id: "node49",
                         name: "4.9",
@@ -75,57 +90,7 @@ function init(){
                         data: {},
                         children: []
                     }]
-                }, {
-                    id: "node312",
-                    name: "3.12",
-                    data: {},
-                    children: [{
-                        id: "node413",
-                        name: "4.13",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node314",
-                    name: "3.14",
-                    data: {},
-                    children: [{
-                        id: "node415",
-                        name: "4.15",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node416",
-                        name: "4.16",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node417",
-                        name: "4.17",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node418",
-                        name: "4.18",
-                        data: {},
-                        children: []
-                    }]
-                }, {
-                    id: "node319",
-                    name: "3.19",
-                    data: {},
-                    children: [{
-                        id: "node420",
-                        name: "4.20",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node421",
-                        name: "4.21",
-                        data: {},
-                        children: []
-                    }]
-                }]
+                }, ]
             }, {
                 id: "node222",
                 name: "2.22",
@@ -143,7 +108,7 @@ function init(){
                 }]
             }]
         }, {
-            id: "node08.2",
+            id: "node1.2",
             name: "Cross the border between ports of entry",
             data: {},
             children: [{
