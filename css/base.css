@@ -4,7 +4,7 @@ html, body {
     font-family: "Lucida Grande", Verdana;
     font-size: 0.9em;
     text-align: center;
-    background-color:#F2F2F2;
+    background-color:#f4f5e5;
 }
 
 input, select {
@@ -37,34 +37,35 @@ a {
 #left-container, 
 #right-container, 
 #center-container {
-    height:600px;
+    height:auto;
     position:absolute;
-    top:0;
+    top:10px;
 }
 
-#left-container, #right-container {
+/* #left-container,  */
+#right-container {
     width:200px;
     color:#686c70;
     text-align: left;
     overflow: auto;
-    background-color:#fff;
+    /* background-color:#fff;
     background-repeat:no-repeat;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #ddd; */
 }
 
-#left-container {
+/* #left-container {
     left:0;
     background-image:url('col2.png');
     background-position:center right;
     border-left:1px solid #ddd;
     
-}
+} */
 
 #right-container {
     right:0;
-    background-image:url('col1.png');
+    /* background-image:url('col1.png');
     background-position:center left;
-    border-right:1px solid #ddd;
+    border-right:1px solid #ddd; */
 }
 
 #right-container h4{
@@ -72,10 +73,10 @@ a {
 }
 
 #center-container {
-    width:600px;
-    left:200px;
-    background-color:#1a1a1a;
-    color:#ccc;
+    width:75%;
+    /* left:200px; */
+    background-color:#1a1a1a04;
+    /* color:#ccc; */
 }
 
 .text {
@@ -89,11 +90,11 @@ a {
 }
 
 #log {
-    position:absolute;
+    position:relative;
     top:10px;
     font-size:1.0em;
     font-weight:bold;
-    color:#23A4FF;
+    color:#000000;
 }
 
 
