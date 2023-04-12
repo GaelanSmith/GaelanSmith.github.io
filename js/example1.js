@@ -884,10 +884,10 @@ function init(){
     
     function changeHandler() {
         if(this.checked) {
-            top.disabled = bottom.disabled = right.disabled = left.disabled = true;
+            left.disabled = top.disabled = bottom.disabled = right.disabled = true;
             st.switchPosition(this.value, "animate", {
                 onComplete: function(){
-                    top.disabled = bottom.disabled = right.disabled = left.disabled = false;
+                    left.disabled = top.disabled = bottom.disabled = right.disabled = false;
                 }
             });
         }
