@@ -134,7 +134,7 @@ function init(){
         //id of viz container element
         injectInto: 'infovis',
         //set duration for the animation
-        duration: 800,
+        duration: 400,
         //set animation transition type
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
@@ -252,16 +252,17 @@ function init(){
     
     function changeHandler() {
         if(this.checked) {
-            top.disabled = left.disabled = bottom.disabled = right.disabled = true;
+            left.disabled = top.disabled = bottom.disabled = right.disabled = true;
             st.switchPosition(this.value, "animate", {
                 onComplete: function(){
-                    top.disabled = left.disabled = bottom.disabled = right.disabled = false;
+                    left.disabled = top.disabled = bottom.disabled = right.disabled = false;
                 }
             });
         }
     };
     
-    left.onchange = bottom.onchange = right.onchange = top.onchange = changeHandler;
+    left.onchange = top.onchange = bottom.onchange = right.onchange = changeHandler;
     //end
+
 
 }
