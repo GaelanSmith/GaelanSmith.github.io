@@ -28,7 +28,7 @@ a {
 }
 
 #container {
-    width: 1000px;
+    width: 750px;
     height: 600px;
     margin: 5%;
     position:relative;
@@ -83,6 +83,7 @@ a {
 
 #log {
     position:relative;
+    
     top:20px;
     font-size:1.0em;
     font-weight:bold;
