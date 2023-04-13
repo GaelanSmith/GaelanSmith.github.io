@@ -42,9 +42,6 @@ a {
     height:auto;
     position:relative;
     top: 20px;
-}
-
-#center-container {
     width:100%;
     background-color:#eef0dd; 
     /* color:#ccc; */
@@ -61,7 +58,7 @@ a {
 }
 
 #log {
-    position:relative;
+    /* position:relative; */
     font-size:1.0em;
     font-weight:bold;
     color:#000000;
