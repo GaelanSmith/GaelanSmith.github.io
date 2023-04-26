@@ -17,104 +17,22 @@
 
 // the flat data
 var flatData = [
-  {
-    "childID": "1",
-    "nodeTextEng": "You approach the border. How do you enter?",
-    "nodeType": "Question",
-    "parentID": ""
-  },
-  {
-    "childID": "2",
-    "nodeTextEng": "Go to a port of entry",
-    "nodeType": "Answer",
-    "parentID": "1"
-  },
-  {
-    "childID": "3",
-    "nodeTextEng": "Cross the border between ports of entry",
-    "nodeType": "Answer",
-    "parentID": "1"
-  },
-  {
-    "childID": "4",
-    "nodeTextEng": "Do you have a visa to enter the US?",
-    "nodeType": "Question",
-    "parentID": "2"
-  },
-  {
-    "childID": "4Y",
-    "nodeTextEng": "Yes",
-    "nodeType": "Answer",
-    "parentID": "4"
-  },
-  {
-    "childID": "4N",
-    "nodeTextEng": "No",
-    "nodeType": "Answer",
-    "parentID": "4"
-  },
-  {
-    "childID": "5",
-    "nodeTextEng": "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
-    "nodeType": "Question",
-    "parentID": "4N"
-  },
-  {
-    "childID": "5Y",
-    "nodeTextEng": "Yes",
-    "nodeType": "Answer",
-    "parentID": "5"
-  },
-  {
-    "childID": "5N",
-    "nodeTextEng": "No",
-    "nodeType": "Answer",
-    "parentID": "5"
-  },
-  {
-    "childID": "6",
-    "nodeTextEng": "Processed at port of entry by CBP OFO",
-    "nodeType": "Process",
-    "parentID": "5Y"
-  },
-  {
-    "childID": "7",
-    "nodeTextEng": "Are you put on parole + ATD or issued a Notice to Appear?",
-    "nodeType": "Question",
-    "parentID": "6"
-  },
-  {
-    "childID": "7Y",
-    "nodeTextEng": "Yes",
-    "nodeType": "Answer",
-    "parentID": "7"
-  },
-  {
-    "childID": "7N",
-    "nodeTextEng": "No",
-    "nodeType": "Answer",
-    "parentID": "7"
-  },
-  {
-    "childID": "8-7",
-    "nodeTextEng": "Non-detained Immigration Court process",
-    "nodeType": "Process",
-    "parentID": "7Y"
-  }
+  {"name": "Top Level", "parent": null}, 
+  {"name": "Level 2: A", "parent": "Top Level" },
+  {"name": "Level 2: B", "parent": "Top Level" },
+  {"name": "Charlie of A", "parent": "Level 2: A" },
+  {"name": "Daughter of A", "parent": "Level 2: A" }
 ];
-
-
 
 // convert the flat data into a hierarchy 
 var treeData = d3.stratify()
-  .id(d => d.childID)
-  .parentId(d => d.parentID)
-  //.text(d => d.nodeTextEng)
+  .id(function(d) { return d.name; })
+  .parentId(function(d) { return d.parent; })
   (flatData);
 
 // assign the name to each node
 treeData.each(function(d) {
-    d.name = d.data.nodeTextEng;
+    d.name = d.id;
   });
 
 
@@ -141,7 +59,7 @@ var i = 0,
 var treemap = d3.tree().size([height, width]);
 
 // Assigns parent, children, height, depth
-root = d3.hierarchy(treeData, d => d.children);
+root = d3.hierarchy(treeData, function(d) { return d.children; });
 root.x0 = height / 2;
 root.y0 = 0;
 

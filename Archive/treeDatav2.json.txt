@@ -1,0 +1,758 @@
+﻿[
+  {
+    "id": "T01",
+    "nodeTextEng": "Asylum",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": "You have asylum and are authorized to work. You may apply for legal permanent residency in one year."
+  },
+  {
+    "id": "T02",
+    "nodeTextEng": "Granted relief",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": ""
+  },
+  {
+    "id": "T03",
+    "nodeTextEng": "Issued order of removal",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": ""
+  },
+  {
+    "id": "T04",
+    "nodeTextEng": "Inside the US without authorization",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": ""
+  },
+  {
+    "id": "T05",
+    "nodeTextEng": "Title 42 to a country other than Mexico",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": ""
+  },
+  {
+    "id": "T06",
+    "nodeTextEng": "Title 42 back to Mexico",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": "People often make one of several choices: they might give up the attempt, go back to their home country, go to a port of entry, or try to cross again."
+  },
+  {
+    "id": "T07",
+    "nodeTextEng": "Apply for asylum affirmatively with USCIS",
+    "nodeType": "Terminus",
+    "children": "",
+    "hoverText": ""
+  },
+  {
+    "id": "1",
+    "nodeTextEng": "You approach the border. How do you enter?",
+    "nodeType": "Question",
+    "children": "2,3",
+    "hoverText": ""
+  },
+  {
+    "id": "2",
+    "nodeTextEng": "Go to a port of entry",
+    "nodeType": "Answer",
+    "children": "4",
+    "hoverText": ""
+  },
+  {
+    "id": "3",
+    "nodeTextEng": "Cross the border between ports of entry",
+    "nodeType": "Answer",
+    "children": "20",
+    "hoverText": ""
+  },
+  {
+    "id": "4",
+    "nodeTextEng": "Do you have a visa to enter the US?",
+    "nodeType": "Question",
+    "children": "4Y,4N",
+    "hoverText": ""
+  },
+  {
+    "id": "4Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T07",
+    "hoverText": ""
+  },
+  {
+    "id": "4N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "5",
+    "hoverText": ""
+  },
+  {
+    "id": "5",
+    "nodeTextEng": "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
+    "nodeType": "Question",
+    "children": "5Y,5N",
+    "hoverText": ""
+  },
+  {
+    "id": "5Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "6",
+    "hoverText": ""
+  },
+  {
+    "id": "5N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "??5",
+    "hoverText": ""
+  },
+  {
+    "id": "6",
+    "nodeTextEng": "Processed at port of entry by CBP OFO",
+    "nodeType": "Process",
+    "children": "7",
+    "hoverText": ""
+  },
+  {
+    "id": "7",
+    "nodeTextEng": "Are you put on parole + ATD or issued a Notice to Appear?",
+    "nodeType": "Question",
+    "children": "7Y,7N",
+    "hoverText": ""
+  },
+  {
+    "id": "7Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "7N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "13",
+    "hoverText": ""
+  },
+  {
+    "id": "8",
+    "nodeTextEng": "Non-detained Immigration Court process",
+    "nodeType": "Process",
+    "children": "9",
+    "hoverText": ""
+  },
+  {
+    "id": "9",
+    "nodeTextEng": "Did/Can you apply for asylum or other form of relief?",
+    "nodeType": "Question",
+    "children": "9Y,9N",
+    "hoverText": ""
+  },
+  {
+    "id": "9Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "10",
+    "hoverText": ""
+  },
+  {
+    "id": "9N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "10",
+    "nodeTextEng": "Did you win asylum or another form of relief?",
+    "nodeType": "Question",
+    "children": "10Y,10N",
+    "hoverText": ""
+  },
+  {
+    "id": "10Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T02",
+    "hoverText": ""
+  },
+  {
+    "id": "10N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "11",
+    "hoverText": ""
+  },
+  {
+    "id": "11",
+    "nodeTextEng": "Can you appeal?",
+    "nodeType": "Question",
+    "children": "11Y,11N",
+    "hoverText": ""
+  },
+  {
+    "id": "11Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "12",
+    "hoverText": ""
+  },
+  {
+    "id": "11N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "12",
+    "nodeTextEng": "Did you win your appeal?",
+    "nodeType": "Question",
+    "children": "12Y,12N",
+    "hoverText": ""
+  },
+  {
+    "id": "12Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T02",
+    "hoverText": ""
+  },
+  {
+    "id": "12N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "13",
+    "nodeTextEng": "Title 8 ICE detention",
+    "nodeType": "Process",
+    "children": "14",
+    "hoverText": ""
+  },
+  {
+    "id": "14",
+    "nodeTextEng": "Did/Can you request asylum or express fear of persecution?",
+    "nodeType": "Question",
+    "children": "14Y,14N",
+    "hoverText": ""
+  },
+  {
+    "id": "14Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "15",
+    "hoverText": ""
+  },
+  {
+    "id": "14N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "15",
+    "nodeTextEng": "Did you pass the credible or reasonable fear interview?",
+    "nodeType": "Question",
+    "children": "15Y,15N",
+    "hoverText": ""
+  },
+  {
+    "id": "15Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "17",
+    "hoverText": ""
+  },
+  {
+    "id": "15N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "16",
+    "hoverText": ""
+  },
+  {
+    "id": "16",
+    "nodeTextEng": "Did you pass IJ review?",
+    "nodeType": "Question",
+    "children": "16Y,16N",
+    "hoverText": ""
+  },
+  {
+    "id": "16Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "17",
+    "hoverText": ""
+  },
+  {
+    "id": "16N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "17",
+    "nodeTextEng": "Did DHS choose to release you on parole?",
+    "nodeType": "Question",
+    "children": "17Y,17N",
+    "hoverText": ""
+  },
+  {
+    "id": "17Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "17N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "18",
+    "hoverText": ""
+  },
+  {
+    "id": "18",
+    "nodeTextEng": "Are you eligible for bond?",
+    "nodeType": "Question",
+    "children": "18Y,18N",
+    "hoverText": ""
+  },
+  {
+    "id": "18Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "19",
+    "hoverText": ""
+  },
+  {
+    "id": "18N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "10",
+    "hoverText": ""
+  },
+  {
+    "id": "19",
+    "nodeTextEng": "Did you win your bond request, and can you pay for it?",
+    "nodeType": "Question",
+    "children": "19Y,19N",
+    "hoverText": ""
+  },
+  {
+    "id": "19Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "19N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "10",
+    "hoverText": ""
+  },
+  {
+    "id": "20",
+    "nodeTextEng": "Were you taken into custody?",
+    "nodeType": "Question",
+    "children": "20Y,20N",
+    "hoverText": ""
+  },
+  {
+    "id": "20Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "21",
+    "hoverText": ""
+  },
+  {
+    "id": "20N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T04",
+    "hoverText": ""
+  },
+  {
+    "id": "21",
+    "nodeTextEng": "Processed between ports of entry by Border Patrol",
+    "nodeType": "Process",
+    "children": "22",
+    "hoverText": ""
+  },
+  {
+    "id": "22",
+    "nodeTextEng": "Do you have a prior deportation order?",
+    "nodeType": "Question",
+    "children": "22Y,22N",
+    "hoverText": ""
+  },
+  {
+    "id": "22Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "23",
+    "hoverText": ""
+  },
+  {
+    "id": "22N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "24",
+    "hoverText": ""
+  },
+  {
+    "id": "23",
+    "nodeTextEng": "Do you have a felony prosecution?",
+    "nodeType": "Question",
+    "children": "23Y,23N",
+    "hoverText": ""
+  },
+  {
+    "id": "23Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "13",
+    "hoverText": ""
+  },
+  {
+    "id": "23N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "??23",
+    "hoverText": ""
+  },
+  {
+    "id": "24",
+    "nodeTextEng": "Are you an unaccompanied child?",
+    "nodeType": "Question",
+    "children": "24Y,24N",
+    "hoverText": ""
+  },
+  {
+    "id": "24Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "25",
+    "hoverText": ""
+  },
+  {
+    "id": "24N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "27",
+    "hoverText": ""
+  },
+  {
+    "id": "25",
+    "nodeTextEng": "Are you from Mexico?",
+    "nodeType": "Question",
+    "children": "25Y,25N",
+    "hoverText": ""
+  },
+  {
+    "id": "25Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "26",
+    "hoverText": ""
+  },
+  {
+    "id": "25N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "29",
+    "hoverText": ""
+  },
+  {
+    "id": "26",
+    "nodeTextEng": "Are you a victim of trafficking?",
+    "nodeType": "Question",
+    "children": "26Y,26N",
+    "hoverText": ""
+  },
+  {
+    "id": "26Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "??26",
+    "hoverText": ""
+  },
+  {
+    "id": "26N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "T03",
+    "hoverText": ""
+  },
+  {
+    "id": "27",
+    "nodeTextEng": "Are you part of a Family Unit?",
+    "nodeType": "Question",
+    "children": "27Y,27N",
+    "hoverText": ""
+  },
+  {
+    "id": "27Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "28",
+    "hoverText": ""
+  },
+  {
+    "id": "27N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "31",
+    "hoverText": ""
+  },
+  {
+    "id": "28",
+    "nodeTextEng": "Did you cross in South Texas with a child under 7?",
+    "nodeType": "Question",
+    "children": "28Y,28N",
+    "hoverText": ""
+  },
+  {
+    "id": "28Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "28N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "31",
+    "hoverText": ""
+  },
+  {
+    "id": "29",
+    "nodeTextEng": "You are transferred to ORR custody",
+    "nodeType": "Process",
+    "children": "30",
+    "hoverText": ""
+  },
+  {
+    "id": "30",
+    "nodeTextEng": "Do you have a sponsor inside the US?",
+    "nodeType": "Question",
+    "children": "30Y,30N",
+    "hoverText": ""
+  },
+  {
+    "id": "30Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "30N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "??30",
+    "hoverText": ""
+  },
+  {
+    "id": "31",
+    "nodeTextEng": "Does DHS have logistical capacity to expel you, and there are no other obstacles such as physical health that prevent expulsion?",
+    "nodeType": "Question",
+    "children": "31Y,31N",
+    "hoverText": ""
+  },
+  {
+    "id": "31Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "32",
+    "hoverText": ""
+  },
+  {
+    "id": "31N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "35",
+    "hoverText": ""
+  },
+  {
+    "id": "32",
+    "nodeTextEng": "Are you Mexican, Guatemalan, Honduran, Salvadoran, or Venezuelan?",
+    "nodeType": "Question",
+    "children": "32Y,32N",
+    "hoverText": ""
+  },
+  {
+    "id": "32Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T06",
+    "hoverText": ""
+  },
+  {
+    "id": "32N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "33",
+    "hoverText": ""
+  },
+  {
+    "id": "33",
+    "nodeTextEng": "Does your country accept Title 42 deportation flights?",
+    "nodeType": "Question",
+    "children": "33Y,33N",
+    "hoverText": ""
+  },
+  {
+    "id": "33Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T05",
+    "hoverText": ""
+  },
+  {
+    "id": "33N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "34",
+    "hoverText": ""
+  },
+  {
+    "id": "34",
+    "nodeTextEng": "Were you picked up in the Rio Grande Valley?",
+    "nodeType": "Question",
+    "children": "34Y,34N",
+    "hoverText": ""
+  },
+  {
+    "id": "34Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "37",
+    "hoverText": "Sanctuary Cities"
+  },
+  {
+    "id": "34N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "35",
+    "hoverText": ""
+  },
+  {
+    "id": "35",
+    "nodeTextEng": "Title 8",
+    "nodeType": "Process",
+    "children": "36",
+    "hoverText": ""
+  },
+  {
+    "id": "36",
+    "nodeTextEng": "Does DHS have the capacity to send you to detention?",
+    "nodeType": "Question",
+    "children": "36Y,36N",
+    "hoverText": ""
+  },
+  {
+    "id": "36Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "13",
+    "hoverText": ""
+  },
+  {
+    "id": "36N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "8",
+    "hoverText": ""
+  },
+  {
+    "id": "37",
+    "nodeTextEng": "Do you intend to reside in Boston, Miami, New York City, Newark, San Francisco, Los Angeles, Chicago, Washington, DC, or New Orleans?",
+    "nodeType": "Question",
+    "children": "37Y,37N",
+    "hoverText": ""
+  },
+  {
+    "id": "37Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "38",
+    "hoverText": ""
+  },
+  {
+    "id": "37N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "??37",
+    "hoverText": ""
+  },
+  {
+    "id": "38",
+    "nodeTextEng": "Asylum processing rule likely applies",
+    "nodeType": "Process",
+    "children": "39",
+    "hoverText": ""
+  },
+  {
+    "id": "39",
+    "nodeTextEng": "Did you pass the credible or reasonable fear interview within the asylum processing rule?",
+    "nodeType": "Question",
+    "children": "39Y,39N",
+    "hoverText": ""
+  },
+  {
+    "id": "39Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "40",
+    "hoverText": ""
+  },
+  {
+    "id": "39N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "16",
+    "hoverText": ""
+  },
+  {
+    "id": "40",
+    "nodeTextEng": "Your Asylum Merits Interview (AMI) occurs within 21-45 days of you credible fear interview. You must submit any evidence 7-10 days before your AMI.",
+    "nodeType": "Process",
+    "children": "41",
+    "hoverText": ""
+  },
+  {
+    "id": "41",
+    "nodeTextEng": "Are you granted asylum?",
+    "nodeType": "Question",
+    "children": "41Y,41N",
+    "hoverText": ""
+  },
+  {
+    "id": "41Y",
+    "nodeTextEng": "Yes",
+    "nodeType": "Answer",
+    "children": "T01",
+    "hoverText": ""
+  },
+  {
+    "id": "41N",
+    "nodeTextEng": "No",
+    "nodeType": "Answer",
+    "children": "??41",
+    "hoverText": ""
+  }
+]
