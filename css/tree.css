@@ -1,9 +1,9 @@
-/* .node circle {
+.node circle {
     fill: #fff;
     stroke: steelblue;
     stroke-width: 3px;
   }
-  */
+ 
   .node g {
     fill: #fff;
     stroke: steelblue;
