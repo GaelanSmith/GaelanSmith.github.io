@@ -1,5 +1,5 @@
 childID,nodeTextEng,nodeType,parentID
-1,You approach the border. How do you enter?,Question,
+1,You approach the border. How do you enter?,Root,
 2,Go to a port of entry,Answer,1
 3,Cross the border between ports of entry,Answer,1
 4,Do you have a visa to enter the US?,Question,2

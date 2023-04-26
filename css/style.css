@@ -1,4 +1,8 @@
 /*CSS Style page for Border Asylum Flow */
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: beige;
 }
