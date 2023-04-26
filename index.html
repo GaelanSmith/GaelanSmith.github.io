@@ -755,6 +755,7 @@ root.children.forEach(collapse);
 update(root);
 
 // Collapse the node and all its children
+// How can I update this to collapse after nodeType = Answer but NOT collapse after nodeType = Question?
 function collapse(d) {
   if(d.children) {
     d._children = d.children
@@ -783,60 +784,87 @@ function update(source) {
 
   // Enter any new modes at the parent's previous position.
   var nodeEnter = node.enter().append('g')
-      .attr('class', 'node')
-      .attr("transform", function(d) {
-        return "translate(" + source.x0 + "," + source.y0 + ")";
-    })
-    .on('click', click);
+		.classed("node", true)		
+		.attr("transform", function(d) {
+        	return "translate(" + source.x0 + "," + source.y0 + ")";
+    		})
+    	.on('click', click);
+	
 
   // ************* Add labels for the nodes *************
-	var rect = nodeEnter.append("rect")
-		.attr("class", "wrapme")
-		.attr("class", "node")
-		.attr('width', 1e-6);
-	//	.style("fill", "white");
+	var nodeRect = nodeEnter.append("g")
+		.attr('width', 1e-6)
+		.attr("fill", "blue");
     //   .style("fill", function(d) {
     //       return d._children ? "lightsteelblue" : "#000";});
+	// nodeRect.selectAll("rect")
+	// 	.style("fill", "pink");
+
 
 	var text = nodeEnter.append('text')
+		.classed("wrapme", true)
 		.attr("x", 0)
 		.attr("y", function(d) {
 			return d.parent ? 0 : -20;
 			})
 		.attr("dy", ".35em")
 		.text(function(d) { return d.data.name; });
+	
+	// svg.append("g")
+    // .style("fill", "blue")
+    // .selectAll("text")
+    // .data(flatData)
+    // .join("text")
+    // .text(d => d.name);
+	//   return svg.node()
 
-	function wrap(text) {
-    text.each(function() {
-        var text = d3.select(this);
-        var words = text.text().split(/\s+/).reverse();
-        var lineHeight = 20;
-        var width = parseFloat(text.attr('width'));
-        var y = parseFloat(text.attr('y'));
-        var x = text.attr('x');
-        var anchor = text.attr('text-anchor');
+
+// TEXT WRAP OPTION 1: HTML
+// svg.append("foreignObject")
+//     .attr("width", blockWidth)
+//     .attr("height", blockHeight)
+//     .append("xhtml:div")
+//     .style("color", "#000")
+//     .style("text-align", "center")
+//     .style("width", "100%")
+//     .style("height", "100%")
+//     .style("padding", "5px")
+//     .style("font-size", `${fontSize}px`)
+//     .style("overflow-y", "auto")
+//     .html("The text to display")
+
+// TEXT WRAP OPTION 2: FUNCTION
+// 	function wrap(text) {
+//     text.each(function() {
+//         var text = d3.select(this);
+//         var words = text.text().split(/\s+/).reverse();
+//         var lineHeight = 20;
+//         var width = parseFloat(text.attr('width'));
+//         var y = parseFloat(text.attr('y'));
+//         var x = text.attr('x');
+//         var anchor = text.attr('text-anchor');
     
-        var tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('text-anchor', anchor);
-        var lineNumber = 0;
-        var line = [];
-        var word = words.pop();
+//         var tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('text-anchor', anchor);
+//         var lineNumber = 0;
+//         var line = [];
+//         var word = words.pop();
 
-        while (word) {
-            line.push(word);
-            tspan.text(line.join(' '));
-            if (tspan.node().getComputedTextLength() > width) {
-                lineNumber += 1;
-                line.pop();
-                tspan.text(line.join(' '));
-                line = [word];
-                tspan = text.append('tspan').attr('x', x).attr('y', y + lineNumber * lineHeight).attr('anchor', anchor).text(word);
-            }
-            word = words.pop();
-        }
-    });
-}
+//         while (word) {
+//             line.push(word);
+//             tspan.text(line.join(' '));
+//             if (tspan.node().getComputedTextLength() > width) {
+//                 lineNumber += 1;
+//                 line.pop();
+//                 tspan.text(line.join(' '));
+//                 line = [word];
+//                 tspan = text.append('tspan').attr('x', x).attr('y', y + lineNumber * lineHeight).attr('anchor', anchor).text(word);
+//             }
+//             word = words.pop();
+//         }
+//     });
+// }
 		
-	d3.selectAll(".wrapme").call(wrap);
+// 	d3.selectAll(".wrapme").call(wrap);
 	
 
   
