@@ -1,0 +1,15 @@
+change "persons" to "nodes"
+
+replace "name" with "nodeTextEng"
+
+replace "parent_union" with "parentID"
+change parent_union/parentID to array (like own_unions)
+do I need "own_unions"?
+
+add "group" to try to do the cluster thing?
+
+remove (from tooltip, anywhere else?):
+	"birthyear",
+	"deathyear",
+	"birthplace",
+	"deathplace"

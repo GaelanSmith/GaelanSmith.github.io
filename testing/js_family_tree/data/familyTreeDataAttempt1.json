@@ -1,0 +1,88 @@
+{
+      "start": "1",
+      "persons": {
+	"1": {
+	  "id": "1",
+          "name": "You approach the border. How do you enter?",
+    	  "nodeType": "Question",
+          "parent_union": []
+        },
+        "2": {
+          "id": "2",
+          "name": "Go to a port of entry",
+          "nodeType": "Answer",
+          "parent_union": ["1"]
+        },
+        "3": {
+          "id": "3",
+          "name": "Cross the border between ports of entry",
+          "nodeType": "Answer",
+          "parent_union": ["1"]
+        },
+        "4": {
+          "id": "4",
+          "name": "Do you have a visa to enter the US?",
+          "nodeType": "Question",
+          "parent_union": ["2"]
+        },
+        "4Y": {
+          "id": "4Y",
+          "name": "Yes",
+          "nodeType": "Answer",
+          "parent_union": ["4"]
+        },
+        "4N": {
+          "id": "4N",
+          "name": "No",
+          "nodeType": "Answer",
+          "parent_union": ["4"]
+        },
+        "5": {
+          "id": "5",
+          "name": "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
+          "nodeType": "Question",
+          "parent_union": ["4N"]
+        },
+      },
+
+
+
+      "unions": {
+        "u1": {
+          "id": "u1",
+          "partner": ["id1", "id2"],
+          "children": ["id3", "id4", "id11"]
+        },
+        "u2": {
+          "id": "u2",
+          "partner": ["id6", "id7"],
+          "children": ["id5"]
+        },
+        "u3": {
+          "id": "u3",
+          "partner": ["id3", "id5"],
+          "children": ["id8"]
+        },
+        "u4": {
+          "id": "u4",
+          "partner": ["id3", "id9"],
+          "children": ["id10"]
+        },
+        "u5": {
+          "id": "u5",
+          "partner": ["id8"],
+          "children": ["id12"]
+        },
+      },
+
+
+
+      "links": [
+        ["1", "2"],
+        ["1", "3"],
+        ["2", "4"],
+        ["4", "4Y"],
+        ["4", "4N"],
+        ["4N", "5"],
+      ]
+    }
