@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Promising attempt</title>    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+	<style>
+		circle {
+      			fill: rgb(88, 147, 0);
+    		}
+
+    		path {
+      			fill: none;
+      			stroke: black;
+    		}
+	</style>
+</head>
+<body>    
+    <script>
+        var levelRadius = 50;
+    var radius = 10;
+    var size = 500;
+    var margin = 50;
+
+    var svg = d3
+      .select("body")
+      .append("svg")
+      .attr("width", size + 2 * margin)
+      .attr("height", size + 2 * margin)
+      .append("g")
+      .attr("transform", "translate(" + [margin, margin] + ")");
+
+    //tree data
+    var data = [{
+        child: "Alice",
+        parents: []
+      },
+      {
+        child: "Bob",
+        parents: []
+      },
+      {
+        child: "Carol",
+        parents: []
+      },
+      {
+        child: "Dave",
+        parents: ["Alice", "Bob"]
+      },
+      {
+        child: "Eve",
+        parents: ["Alice", "Bob"]
+      },
+      {
+        child: "Francis",
+        parents: ["Bob", "Carol"]
+      },
+      {
+        child: "Graham",
+        parents: ["Carol"]
+      },
+      {
+        child: "Hugh",
+        parents: ["Eve", "Graham"]
+      },
+    ];
+
+    data.forEach(function(d, i) {
+      d.level = d.parents.length ?
+        data.find(function(p) {
+          return p.child === d.parents[0];
+        }).level + 1 :
+        0;
+
+      // Desired y level, otherwise try for sensible defaults
+      d.dy = d.y = d.level * levelRadius * 2;
+      d.x = size / 2 - i * levelRadius;
+    });
+
+    var nodes = data;
+
+    // Custom way to get all links we need to draw
+    var links = [];
+    nodes.forEach(function(node) {
+      node.parents.forEach(function(parentId) {
+        var parentNode = nodes.find(function(d) {
+          return d.child === parentId;
+        });
+        links.push({
+          id: parentNode.child + " - " + node.child,
+          source: parentNode,
+          target: node,
+        });
+      });
+    });
+
+    var simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id))
+      .force("collide", d3.forceCollide(levelRadius))
+      .force("x", d3.forceX()
+        .x(function(d) {
+          return size / 2;
+        })
+        .strength(0.2)
+      )
+      .force("y", d3.forceY()
+        .y(function(d) {
+          return d.dy;
+        })
+        .strength(5)
+      );
+    // Run the simulation once, even before rendering anything
+    simulation.tick(100)
+      .stop();
+
+    //to make the connections curves
+    var link = svg.append("g").selectAll("path")
+      .data(links)
+      .enter()
+      .append("path")
+      .attr("d", function(d) {
+        return (
+          "M" +
+          d.source.x +
+          "," +
+          d.source.dy +
+          " C " +
+          d.source.x +
+          "," +
+          (d.source.y + d.target.dy) / 2 +
+          " " +
+          d.target.x +
+          "," +
+          (d.source.y + d.target.dy) / 2 +
+          " " +
+          d.target.x +
+          "," +
+          d.target.dy
+        );
+      });
+
+    var node = svg
+      .selectAll(".node")
+      .data(nodes)
+      .enter()
+      .append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) {
+        // Use d.dy to snap the node to the level that we want it at
+        return "translate(" + [d.x, d.dy] + ")";
+      });
+
+    node.append("circle")
+      .attr("r", radius);
+    node.append("text")
+      .attr("dominant-baseline", "middle")
+      .attr("dx", radius + 3)
+      .text(function(d) {
+        return d.child;
+      });
+    </script>
+</body>
+</html>
