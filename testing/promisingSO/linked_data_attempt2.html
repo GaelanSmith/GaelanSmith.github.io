@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Linked data attempt 1</title>    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+</head>
+<body>    
+    <script>
+    d3.json("dataGrouped.json").then(function(data) {
+        
+        
+
+        const name = d.nodeTextEng;
+        const maxLen = 35; // you can play with this number to get desired result.
+
+        let result = name.substr(0, maxLen);
+        result = result.substr(0, Math.min(result.length, result.lastIndexOf(" ")));
+                
+        data.forEach(function(d, i) {
+      d.nodeTextEng.length = maxLen ?
+        let result = name.substr(0, maxLen);
+        result = result.substr(0, Math.min(result.length, result.lastIndexOf(" ")));
+        return result;
+
+        // var origText = d3.select("body")
+        //     .selectAll("p")
+        //     .data(data)
+        //     .enter()
+        //     .append("p")
+        //     .text(result);
+            
+        
+            });
+
+
+// var insertLinebreaks = function (d) {
+//             var el = d3.select(this);
+//             var words = d.label.split(' ');
+//             el.text('');
+
+//             for (var i = 0; i < words.length; i++) {
+//                 var tspan = el.append('tspan').text(words[i]);
+//                 tspan.attr('x', 0).attr('dy', '15')
+//                      .attr("font-size", "12");
+//             }
+
+// d3.select("body")
+//         .selectAll("p")
+//         .data(d)
+//         .enter()
+//         .append("p")
+//         .text(d => d.nodeTextEng);
+
+</script>
+</body>
+</html>
