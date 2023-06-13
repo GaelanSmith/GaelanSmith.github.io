@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Troubleshooting Text Line breaks</title>    
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>    
@@ -30,9 +30,8 @@
     var breakText = function() {
       var str = "This is extremely long text that has some stupendously long words in it, and I'm trying to get the damn thing to break properly."
           
-      var originalStr = str;
       str = splitString(str);
-      return str;
+      return str; //this is where I need to fix, I think
       }
          
       function splitString(str)
@@ -74,7 +73,7 @@
               }
               
             }
-            var newString = slicedStringList.join("\r\n");
+            var newString = slicedStringList.join("<br>\r\n");
             return newString;
         }
 
