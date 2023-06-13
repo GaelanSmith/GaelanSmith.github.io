@@ -3,9 +3,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Promising attempt 6.3 rebuild</title>    
+    <title>Troubleshooting Text Line breaks</title>    
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     
 </head>
 <body>    
@@ -17,537 +17,79 @@
       var size = 500;
       var margin = 50;
 
-    // var svgOuter = d3
-    //   .select("body")
-    //   .append("svg")
-    //   .attr("width", width - margin)
-    //   .attr("height", height - margin)
-    //   .style("background", "lightgrey")
-    //   .append("g")
-    //   .attr("transform", "translate(" + [margin, margin] + ")");
-
-    //tree data
-  //   var data = [{
-  //   childID: "1",
-  //   nodeTextEng: "You approach the border. How do you enter?",
-  //   nodeType: "Question",
-  //   parentID: []
-  // },
-  // {
-  //   childID: "2",
-  //   nodeTextEng: "Go to a port of entry",
-  //   nodeType: "Answer",
-  //   parentID: ["1"]
-  // },
-  // {
-  //   childID: "3",
-  //   nodeTextEng: "Cross the border between ports of entry",
-  //   nodeType: "Answer",
-  //   parentID: ["1"]
-  // },
-  // {
-  //   childID: "4",
-  //   nodeTextEng: "Do you have a visa to enter the US?",
-  //   nodeType: "Question",
-  //   parentID: ["2"]
-  // },
-  // {
-  //   childID: "4Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["4"]
-  // },
-  // {
-  //   childID: "4N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["4"]
-  // },
-  // {
-  //   childID: "5",
-  //   nodeTextEng: "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
-  //   nodeType: "Question",
-  //   parentID: ["4N"]
-  // },
-  // {
-  //   childID: "5Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["5"]
-  // },
-  // {
-  //   childID: "5N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["5"]
-  // },
-  // {
-  //   childID: "6",
-  //   nodeTextEng: "Processed at port of entry by CBP OFO",
-  //   nodeType: "Process",
-  //   parentID: ["5Y"]
-  // },
-  // {
-  //   childID: "7",
-  //   nodeTextEng: "Are you put on parole + ATD or issued a Notice to Appear?",
-  //   nodeType: "Question",
-  //   parentID: ["6"]
-  // },
-  // {
-  //   childID: "7Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["7"]
-  // },
-  // {
-  //   childID: "7N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["7"]
-  // },
-  // // {
-  // //   childID: "8",
-  // //   nodeTextEng: "Non-detained Immigration Court process",
-  // //   nodeType: "Process",
-  // //   parentID: ["7Y", "17Y", "19Y", "28Y", "30Y", "36N"]
-  // // },
-  // {
-  //   childID: "8",
-  //   nodeTextEng: "Non-detained Immigration Court process",
-  //   nodeType: "Process",
-  //   parentID: ["7Y", "17Y", "19Y"]
-  // },
-  // {
-  //   childID: "9",
-  //   nodeTextEng: "Did/Can you apply for asylum or other form of relief?",
-  //   nodeType: "Question",
-  //   parentID: ["8"]
-  // },
-  // {
-  //   childID: "9Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["9"]
-  // },
-  // {
-  //   childID: "9N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["9"]
-  // },
-  // {
-  //   childID: "10",
-  //   nodeTextEng: "Did you win asylum or another form of relief?",
-  //   nodeType: "Question",
-  //   parentID: ["9Y", "18N", "19N"]
-  // },
-  // {
-  //   childID: "10Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["10"]
-  // },
-  // {
-  //   childID: "10N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["10"]
-  // },
-  // {
-  //   childID: "11",
-  //   nodeTextEng: "Can you appeal?",
-  //   nodeType: "Question",
-  //   parentID: ["10N"]
-  // },
-  // {
-  //   childID: "11Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["11"]
-  // },
-  // {
-  //   childID: "11N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["11"]
-  // },
-  // {
-  //   childID: "12",
-  //   nodeTextEng: "Did you win your appeal?",
-  //   nodeType: "Question",
-  //   parentID: ["11Y"]
-  // },
-  // {
-  //   childID: "12Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["12"]
-  // },
-  // {
-  //   childID: "12N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["12"]
-  // },
-  // // {
-  // //   childID: "13",
-  // //   nodeTextEng: "Title 8 ICE detention",
-  // //   nodeType: "Process",
-  // //   parentID: ["7N", "23Y", "36Y"]
-  // // },
-  // {
-  //   childID: "13",
-  //   nodeTextEng: "Title 8 ICE detention",
-  //   nodeType: "Process",
-  //   parentID: ["7N"]
-  // },
-  // {
-  //   childID: "14",
-  //   nodeTextEng: "Did/Can you request asylum or express fear of persecution?",
-  //   nodeType: "Question",
-  //   parentID: ["13"]
-  // },
-  // {
-  //   childID: "14Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["14"]
-  // },
-  // {
-  //   childID: "14N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["14"]
-  // },
-  // {
-  //   childID: "15",
-  //   nodeTextEng: "Did you pass the credible or reasonable fear interview?",
-  //   nodeType: "Question",
-  //   parentID: ["14Y"]
-  // },
-  // {
-  //   childID: "15Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["15"]
-  // },
-  // {
-  //   childID: "15N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["15"]
-  // },
-  // // {
-  // //   childID: "16",
-  // //   nodeTextEng: "Did you pass IJ review?",
-  // //   nodeType: "Question",
-  // //   parentID: ["15N", "39N"]
-  // // },
-  // {
-  //   childID: "16",
-  //   nodeTextEng: "Did you pass IJ review?",
-  //   nodeType: "Question",
-  //   parentID: ["15N"]
-  // },
-  // {
-  //   childID: "16Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["16"]
-  // },
-  // {
-  //   childID: "16N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["16"]
-  // },
-  // {
-  //   childID: "17",
-  //   nodeTextEng: "Did DHS choose to release you on parole?",
-  //   nodeType: "Question",
-  //   parentID: ["15Y", "16Y"]
-  // },
-  // {
-  //   childID: "17Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["17"]
-  // },
-  // {
-  //   childID: "17N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["17"]
-  // },
-  // {
-  //   childID: "18",
-  //   nodeTextEng: "Are you eligible for bond?",
-  //   nodeType: "Question",
-  //   parentID: ["17N"]
-  // },
-  // {
-  //   childID: "18Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["18"]
-  // },
-  // {
-  //   childID: "18N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["18"]
-  // },
-  // {
-  //   childID: "19",
-  //   nodeTextEng: "Did you win your bond request, and can you pay for it?",
-  //   nodeType: "Question",
-  //   parentID: ["18Y"]
-  // },
-  // {
-  //   childID: "19Y",
-  //   nodeTextEng: "Yes",
-  //   nodeType: "Answer",
-  //   parentID: ["19"]
-  // },
-  // {
-  //   childID: "19N",
-  //   nodeTextEng: "No",
-  //   nodeType: "Answer",
-  //   parentID: ["19"]
-  // },
-  //   ];
-
-    d3.json("dataGrouped.json").then(function(data) {
+   d3.json("dataGrouped.json").then(function(data) {
       
-      var svg = d3
+    var svg = d3
       .select("body")
       .append("svg")
       .attr("width", width - margin)
       .attr("height", height - margin)
       .style("background", "pink")
-      // .append("g")
-      // .attr("transform", "translate(" + [margin, margin] + ")"); 
       
-        // function breakText() {
-        //   var str = "This is extremely long text that has some stupendously long words in it, and I'm trying to get the damn thing to break properly."
+      
+    var breakText = function() {
+      var str = "This is extremely long text that has some stupendously long words in it, and I'm trying to get the damn thing to break properly."
           
-        //   var originalStr = str;
-        //   str = splitString(str);
-          
-        // }
-        var breakText = function() {
-          var str = "This is extremely long text that has some stupendously long words in it, and I'm trying to get the damn thing to break properly."
-          
-          var originalStr = str;
-          str = splitString(str);
-          return str;
-        }
+      var originalStr = str;
+      str = splitString(str);
+      return str;
+      }
          
-        function splitString(str)
+      function splitString(str)
         {
-            var originalStr = str;
-              var charLimit = 20;
-              var slicedStringList = [];
-              var flag = 1;
-              while(flag)
+          var originalStr = str;
+          var charLimit = 20;
+          var slicedStringList = [];
+          var flag = 1;
+          while(flag)
+            {
+              if(str.length <= charLimit)
               {
-                if(str.length <= charLimit)
+                slicedStringList.push(str);
+                flag=0;
+              }
+              else
+              {
+                var tempChar = str[charLimit]
+                if(tempChar == ' ' || tempChar == '\n' || tempChar == '\r')
                 {
-                  slicedStringList.push(str);
-                  flag=0;
+                  slicedStringList.push(str.substring(0,charLimit));
+                  str = str.substring(charLimit + 1, originalStr.length);
                 }
                 else
                 {
-                  var tempChar = str[charLimit]
-                  if(tempChar == ' ' || tempChar == '\n' || tempChar == '\r')
+                  var tempStr = str.substring(0, charLimit);
+                  var nearestSpace = tempStr.lastIndexOf(" ");
+                  if(nearestSpace >- 1)
                   {
-                    slicedStringList.push(str.substring(0,charLimit));
-                    str = str.substring(charLimit + 1, originalStr.length);
+                    slicedStringList.push(str.substring(0, nearestSpace));
+                    str = str.substring(nearestSpace + 1, originalStr.length);
                   }
                   else
                   {
-                    var tempStr = str.substring(0, charLimit);
-                    var nearestSpace = tempStr.lastIndexOf(" ");
-                    if(nearestSpace >- 1)
-                    {
-                      slicedStringList.push(str.substring(0, nearestSpace));
-                      str = str.substring(nearestSpace + 1, originalStr.length);
-                    }
-                    else
-                    {
-                      slicedStringList.push(tempStr);
-                      str = str.substring(charLimit + 1, originalStr.length);
-                    }
+                    slicedStringList.push(tempStr);
+                    str = str.substring(charLimit + 1, originalStr.length);
                   }
                 }
-                
               }
-              var newString = slicedStringList.join("\r\n");
-              return newString;
+              
+            }
+            var newString = slicedStringList.join("\r\n");
+            return newString;
         }
 
 
-        var textPara = svg.selectAll("text").data(data);
-      textPara.enter()
+      var textPara = svg.selectAll("text").data(data);
+        textPara.enter()
         .append("text")
         // .text(d=>d.nodeTextEng)
-        //.text("Some really long text needs to go in here")
         .text(breakText)
         .attr("x", function(d,i){return width/2;})
         .attr("y", function(d,i){return (i*50) + margin})
         .classed("label", true);
 
-
-      //   var textPara = svg.selectAll("text").data(data);
-      // textPara.enter()
-      //   .append("text")
-      //   // .text(d=>d.nodeTextEng)
-      //   //.text("Some really long text needs to go in here")
-      //   .text(function(d) {
-      //   return d.nodeTextEng;})
-      //   .attr("x", function(d,i){return width/2;})
-      //   .attr("y", function(d,i){return (i*50) + margin})
-      //   .classed("label", true);
-
-      
-
-//         function getName(name) {
-//   let newName = name
-//   let wsIndex = 0
-//   for (let i = 0; i < name.length; i += 1) {
-//     if (name.charAt(i) == ' ') wsIndex = i;
-//     if (i % 35 === 0) {
-//       newName = `${newName.substr(0, wsIndex)}\n${newName.substr(wsIndex+1)}`
-//     }
-//   }
-//   return newName
-// }
-
     });
 
-    // data.forEach(function(d, i) {
-    //   d.level = d.parentID.length ?
-    //     data.find(function(p) {
-    //       return p.childID === d.parentID[0];
-    //     }).level + 1 :
-    //     0;
-
-    //   // Desired y level, otherwise try for sensible defaults
-    //   d.dy = d.y = d.level * levelRadius * 2;
-    //   if (i%2 == 0) d.dy += levelRadius * 0.5; 
-    //   d.x = size / 2 - i * levelRadius;
-    // });
-
-    // var nodes = data;
-
-    // // Custom way to get all links we need to draw
-    // var links = [];
-    // nodes.forEach(function(node) {
-    //   node.parentID.forEach(function(parentLink) {
-    //     var parentNode = nodes.find(function(d) {
-    //       return d.childID === parentLink;
-    //     });
-    //     links.push({
-    //       id: parentNode.childID + " - " + node.childID,
-    //       source: parentNode,
-    //       target: node,
-    //     });
-    //   });
-    // });
-
-    // var simulation = d3.forceSimulation(nodes)
-    //   .force("link", d3.forceLink(links).id(d => d.id))
-    //   .force("collide", d3.forceCollide(levelRadius))
-    //   .force("x", d3.forceX()
-    //     .x(function(d) {
-    //       return size / 2;
-    //     })
-    //     .strength(0.2)
-    //   )
-    //   .force("y", d3.forceY()
-    //     .y(function(d) {
-    //       return d.dy;
-    //     })
-    //     .strength(5)
-    //   );
-    // // Run the simulation once, even before rendering anything
-    // simulation.tick(100)
-    //   .stop();
-
-    //     var linksTweaked
-
-    // //to make the connections curves
-    // var link = svg.append("g").selectAll("path")
-    //   .data(links)
-    //   .enter()
-    //   .append("path")
-    //   .attr("d", function(d) {
-    //     return (
-    //       "M" +
-    //       d.source.x +
-    //       "," +
-    //       d.source.dy +
-    //       " C " +
-    //       d.source.x +
-    //       "," +
-    //       (d.source.y + d.target.dy) / 2 +
-    //       " " +
-    //       d.target.x +
-    //       "," +
-    //       (d.source.y + d.target.dy) / 2 +
-    //       " " +
-    //       d.target.x +
-    //       "," +
-    //       d.target.dy
-    //     );
-    //   });
-
-    //   var margin = 6, pad = 12;
-      
-
-    // var node = svg
-    //   .selectAll(".node")
-    //   .data(nodes)
-    //   .enter()
-    //   .append("g")
-    //   .attr("class", "node")
-    //   .attr("transform", function(d) {
-    //     // Use d.dy to snap the node to the level that we want it at
-    //     return "translate(" + [d.x, d.dy] + ")";
-    //   });
-      
-      
-    //   node.append("rect")
-    //     .attr("class", "node")
-    //     .attr("width", function (d) { return d.width + 2 * pad + 2 * margin; })
-    //     .attr("height", function (d) { return d.height + 2 * pad + 2 * margin; })
-    //     .attr("rx", function (d) { return d.rx; }).attr("ry", function (d) { return d.rx; })
-            
-    // var label = node.append("text")
-    // .attr("class", "label")
-    //         .text(function(d) {
-    //     return d.nodeTextEng;
-
-    //     var insertLinebreaks = function (d) {
-    //         var el = d3.select(this);
-    //         var words = d.label.split(' ');
-    //         el.text('');
-
-    //         for (var i = 0; i < words.length; i++) {
-    //             var tspan = el.append('tspan').text(words[i]);
-    //             tspan.attr('x', 0).attr('dy', '15')
-    //                  .attr("font-size", "12");
-    //         }
-    //     };
-
-    // //   node.append("circle")
-    // //   .attr("r", radius);
-    // // node.append("text")
-    // //   .attr("dominant-baseline", "middle")
-    // //   .attr("dx", radius + 3)
-    // //   .text(function(d) {
-    // //     return d.nodeTextEng;
-    //   });
     </script>
 </body>
 </html>
