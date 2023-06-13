@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Promising attempt 6.2 rebuild</title>    
+    <title>Promising attempt 6.3 rebuild</title>    
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="style.css">
     
@@ -324,7 +324,7 @@
       .append("svg")
       .attr("width", width - margin)
       .attr("height", height - margin)
-      .style("background", "pink");
+      .style("background", "pink")
       // .append("g")
       // .attr("transform", "translate(" + [margin, margin] + ")"); 
       
@@ -382,7 +382,7 @@
                 }
                 
               }
-              var newString = slicedStringList.join('\r\n');
+              var newString = slicedStringList.join("\r\n");
               return newString;
         }
 
