@@ -159,24 +159,24 @@
             })
             .call(cola.drag);
 
-        // nodesLayer.selectAll(".imagenode")
-        //     .attr("class", "node")
-        //     .append("image")
-        //     .attr("xlink:href", function (d) {
-        //         var url = "graphdata/" + d['image'] + ".gif";
-        //         var simg = this;
-        //         var img = new Image();
-        //         img.onload = function () {
-        //             d.width = this.width * imageScale;
-        //             d.height = this.height * imageScale;
-        //             simg.setAttribute("width", d.width);
-        //             simg.setAttribute("height", d.height);
-        //         }
-        //         return img.src = url;
-        //     })
-        //     .on("mouseover", function () { imageZoom(this, 1/imageScale) })
-        //     .on("touchend", function () { toggleImageZoom(this) })
-        //     .on("mouseout", function () { imageZoom(this, 1) });
+        nodesLayer.selectAll(".imagenode")
+            .attr("class", "node")
+            .append("image")
+            .attr("xlink:href", function (d) {
+                var url = "graphdata/" + d['image'] + ".gif";
+                var simg = this;
+                var img = new Image();
+                img.onload = function () {
+                    d.width = this.width * imageScale;
+                    d.height = this.height * imageScale;
+                    simg.setAttribute("width", d.width);
+                    simg.setAttribute("height", d.height);
+                }
+                return img.src = url;
+            })
+            .on("mouseover", function () { imageZoom(this, 1/imageScale) })
+            .on("touchend", function () { toggleImageZoom(this) })
+            .on("mouseout", function () { imageZoom(this, 1) });
 
         enter.append("circle")
             .attr("r", 7)
