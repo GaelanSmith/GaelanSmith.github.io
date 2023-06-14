@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Change Name to ID</title>
+    <title>Change Data</title>
 <style>
 @import url(../style.css);
 
@@ -70,7 +70,7 @@
 
     d3.json("biological_copy1.json", function (error, g) {
         modelgraph = g;
-        var startNode = getNode("79");
+        var startNode = getNode("1");
         addViewNode(startNode);
         refocus(startNode);
         update();
@@ -159,24 +159,24 @@
             })
             .call(cola.drag);
 
-        nodesLayer.selectAll(".imagenode")
-            .attr("class", "node")
-            .append("image")
-            .attr("xlink:href", function (d) {
-                var url = "graphdata/" + d['image'] + ".gif";
-                var simg = this;
-                var img = new Image();
-                img.onload = function () {
-                    d.width = this.width * imageScale;
-                    d.height = this.height * imageScale;
-                    simg.setAttribute("width", d.width);
-                    simg.setAttribute("height", d.height);
-                }
-                return img.src = url;
-            })
-            .on("mouseover", function () { imageZoom(this, 1/imageScale) })
-            .on("touchend", function () { toggleImageZoom(this) })
-            .on("mouseout", function () { imageZoom(this, 1) });
+        // nodesLayer.selectAll(".imagenode")
+        //     .attr("class", "node")
+        //     .append("image")
+        //     .attr("xlink:href", function (d) {
+        //         var url = "graphdata/" + d['image'] + ".gif";
+        //         var simg = this;
+        //         var img = new Image();
+        //         img.onload = function () {
+        //             d.width = this.width * imageScale;
+        //             d.height = this.height * imageScale;
+        //             simg.setAttribute("width", d.width);
+        //             simg.setAttribute("height", d.height);
+        //         }
+        //         return img.src = url;
+        //     })
+        //     .on("mouseover", function () { imageZoom(this, 1/imageScale) })
+        //     .on("touchend", function () { toggleImageZoom(this) })
+        //     .on("mouseout", function () { imageZoom(this, 1) });
 
         enter.append("circle")
             .attr("r", 7)
