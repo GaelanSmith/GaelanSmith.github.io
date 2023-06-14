@@ -5,8 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Change Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 <style>
-@import url(../style.css);
 
 .background {
     stroke: gray;
@@ -68,7 +69,7 @@
 
     var modelgraph, viewgraph = { nodes: [], links: [] };
 
-    d3.json("biological_copy2.json", function (error, g) {
+    d3.json("nodelink1.json", function (error, g) {
         modelgraph = g;
         var startNode = getNode("1");
         addViewNode(startNode);
