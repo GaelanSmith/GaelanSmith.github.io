@@ -1,122 +1,98 @@
 {
   "nodes": [
     {
-      "image": "biological_images/C00002",
-      "nodeID": 1,
+      "nodeID": "1",
+      "nodeTextEng": "node 1"
+    },
+    {
+      "nodeID": "2",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 2,
+      "nodeID": "3",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 3,
+      "nodeID": "4",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 4,
+      "nodeID": "5",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 5,
+      "nodeID": "6",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 6,
+      "nodeID": "7",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 7,
+      "nodeID": "8",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 8,
+      "nodeID": "9",
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00002",
-      "nodeID": 9,
-      "nodeTextEng": "ATP"
-    },
-    {
-      "image": "biological_images/C00008",
-      "nodeID": 10,
+      "nodeID": "10",
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
-      "nodeID": 11,
+      "nodeID": "11",
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
-      "nodeID": 12,
+      "nodeID": "12",
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
-      "nodeID": 13,
+      "nodeID": "13",
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
-      "nodeID": 14,
+      "nodeID": "14",
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
       "nodeID": 15,
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C00008",
       "nodeID": 16,
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 17,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 18,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 19,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 20,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 21,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 22,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 23,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 24,
       "nodeTextEng": "P"
     },
@@ -125,17 +101,14 @@
       "nodeTextEng": "glucose 1-phosphate"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 26,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 27,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 28,
       "nodeTextEng": "P"
     },
@@ -152,32 +125,26 @@
       "nodeTextEng": "PP"
     },
     {
-      "image": "biological_images/C00003",
       "nodeID": 32,
       "nodeTextEng": "NAD+"
     },
     {
-      "image": "biological_images/C00003",
       "nodeID": 33,
       "nodeTextEng": "NAD+"
     },
     {
-      "image": "biological_images/C00003",
       "nodeID": 34,
       "nodeTextEng": "NAD+"
     },
     {
-      "image": "biological_images/C00004",
       "nodeID": 35,
       "nodeTextEng": "NADH"
     },
     {
-      "image": "biological_images/C00004",
       "nodeID": 36,
       "nodeTextEng": "NADH"
     },
     {
-      "image": "biological_images/C00004",
       "nodeID": 37,
       "nodeTextEng": "NADH"
     },
@@ -186,82 +153,66 @@
       "nodeTextEng": "2-Phospho-glycerate"
     },
     {
-      "image": "biological_images/C00022",
       "nodeID": 39,
       "nodeTextEng": "pyruvate"
     },
     {
-      "image": "biological_images/C00006",
       "nodeID": 40,
       "nodeTextEng": "NADP+"
     },
     {
-      "image": "biological_images/C00006",
       "nodeID": 41,
       "nodeTextEng": "NADP+"
     },
     {
-      "image": "biological_images/C00006",
       "nodeID": 42,
       "nodeTextEng": "NADP+"
     },
     {
-      "image": "biological_images/C00005",
       "nodeID": 43,
       "nodeTextEng": "NADPH"
     },
     {
-      "image": "biological_images/C00005",
       "nodeID": 44,
       "nodeTextEng": "NADPH"
     },
     {
-      "image": "biological_images/C00005",
       "nodeID": 45,
       "nodeTextEng": "NADPH"
     },
     {
-      "image": "biological_images/C00036",
       "nodeID": 46,
       "nodeTextEng": "oxaloacetate"
     },
     {
-      "image": "biological_images/C00711",
       "nodeID": 47,
       "nodeTextEng": "malate"
     },
     {
-      "image": "biological_images/C00011",
       "nodeID": 48,
       "nodeTextEng": "CO2"
     },
     {
-      "image": "biological_images/C00011",
       "nodeID": 49,
       "nodeTextEng": "CO2"
     },
     {
-      "image": "biological_images/C00011",
       "nodeID": 50,
       "nodeTextEng": "CO2"
     },
     {
-      "image": "biological_images/C00011",
       "nodeID": 51,
       "nodeTextEng": "CO2"
     },
     {
-      "image": "biological_images/C00025",
       "nodeID": 52,
       "nodeTextEng": "L-glutamate"
     },
     {
-      "image": "biological_images/C00020",
       "nodeID": 53,
       "nodeTextEng": "AMP"
     },
     {
-      "image": "biological_images/C00020",
       "nodeID": 54,
       "nodeTextEng": "AMP"
     },
@@ -362,8 +313,8 @@
       "nodeTextEng": "malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)"
     },
     {
-      "nodeID": 79,
-      "nodeTextEng": "phosphoenolpyruvate carboxykinase (ATP)"
+      "nodeID": "79",
+      "nodeTextEng": "node 79"
     },
     {
       "nodeID": 80,
@@ -410,7 +361,6 @@
       "nodeTextEng": "6-phosphofructokinase (cPFK)"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 91,
       "nodeTextEng": "P"
     },
@@ -419,7 +369,6 @@
       "nodeTextEng": "G6P transporter"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 93,
       "nodeTextEng": "P"
     },
@@ -428,7 +377,6 @@
       "nodeTextEng": "glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 95,
       "nodeTextEng": "P"
     },
@@ -465,12 +413,10 @@
       "nodeTextEng": "3-phospho-glycerate"
     },
     {
-      "image": "biological_images/C00074",
       "nodeID": 104,
       "nodeTextEng": "phosphoenolpyruvate"
     },
     {
-      "image": "biological_images/C00092",
       "nodeID": 105,
       "nodeTextEng": "glucose 6-phosphate"
     },
@@ -483,7 +429,6 @@
       "nodeTextEng": "fructose 1,6-bisphosphate"
     },
     {
-      "image": "biological_images/C00111",
       "nodeID": 108,
       "nodeTextEng": "dihydroxyacetone phosphate"
     },
@@ -496,92 +441,74 @@
       "nodeTextEng": "2-Phospho-glycerate"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 111,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C00092",
       "nodeID": 112,
       "nodeTextEng": "glucose 6-phosphate"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 113,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 114,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 115,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 116,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C00036",
       "nodeID": 117,
       "nodeTextEng": "oxaloacetate"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 118,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C00002",
       "nodeID": 119,
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00008",
       "nodeID": 120,
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 121,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C00003",
       "nodeID": 122,
       "nodeTextEng": "NAD+"
     },
     {
-      "image": "biological_images/C00004",
       "nodeID": 123,
       "nodeTextEng": "NADH"
     },
     {
-      "image": "biological_images/C00006",
       "nodeID": 124,
       "nodeTextEng": "NADP+"
     },
     {
-      "image": "biological_images/C00005",
       "nodeID": 125,
       "nodeTextEng": "NADPH"
     },
     {
-      "image": "biological_images/C00026",
       "nodeID": 126,
       "nodeTextEng": "2-oxoglutarate"
     },
     {
-      "image": "biological_images/C00025",
       "nodeID": 127,
       "nodeTextEng": "L-glutamate"
     },
     {
-      "image": "biological_images/C00148",
       "nodeID": 128,
       "nodeTextEng": "L-proline"
     },
@@ -606,47 +533,38 @@
       "nodeTextEng": "(spontaneous reaction)"
     },
     {
-      "image": "biological_images/C01165",
       "nodeID": 134,
       "nodeTextEng": "L-glutamate 5-semialdehyde"
     },
     {
-      "image": "biological_images/C03912",
       "nodeID": 135,
       "nodeTextEng": "1-pyrroline-5-carboxylate"
     },
     {
-      "image": "biological_images/C00002",
       "nodeID": 136,
       "nodeTextEng": "ATP"
     },
     {
-      "image": "biological_images/C00008",
       "nodeID": 137,
       "nodeTextEng": "ADP"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 138,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 139,
       "nodeTextEng": "P"
     },
     {
-      "image": "biological_images/C00006",
       "nodeID": 140,
       "nodeTextEng": "NADP+"
     },
     {
-      "image": "biological_images/C00005",
       "nodeID": 141,
       "nodeTextEng": "NADPH"
     },
     {
-      "image": "biological_images/C00279",
       "nodeID": 142,
       "nodeTextEng": "D-erythrose 4-phosphate"
     },
@@ -655,22 +573,18 @@
       "nodeTextEng": "3-deoxy-arabino-heptulosonate 7-phosphate"
     },
     {
-      "image": "biological_images/C00944",
       "nodeID": 144,
       "nodeTextEng": "3-dehydroquinate"
     },
     {
-      "image": "biological_images/C02637",
       "nodeID": 145,
       "nodeTextEng": "3-dehydroshikimate"
     },
     {
-      "image": "biological_images/C00493",
       "nodeID": 146,
       "nodeTextEng": "shikimate"
     },
     {
-      "image": "biological_images/C01269",
       "nodeID": 147,
       "nodeTextEng": "5-O-(1-carboxyvinyl)-3-phosphoshikimate"
     },
@@ -699,7 +613,6 @@
       "nodeTextEng": " 3-phosphoshikimate"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 154,
       "nodeTextEng": "P"
     },
@@ -708,7 +621,6 @@
       "nodeTextEng": "3-deoxy-7-phosphoheptulonate synthase"
     },
     {
-      "image": "biological_images/C06262",
       "nodeID": 156,
       "nodeTextEng": "P"
     },
@@ -717,7 +629,6 @@
       "nodeTextEng": "chorismate synthase"
     },
     {
-      "image": "biological_images/C00002",
       "nodeID": 158,
       "nodeTextEng": "ATP"
     },
