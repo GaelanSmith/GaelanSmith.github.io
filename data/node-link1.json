@@ -1,0 +1,1108 @@
+{
+  "nodes": [
+    {
+      "nodeID": 1,
+      "nodeTextEng": "You approach the border. How do you enter?",
+      "nodeType": "Root"
+    },
+    {
+      "nodeID": 2,
+      "nodeTextEng": "Go to a port of entry",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 3,
+      "nodeTextEng": "Cross the border between ports of entry",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 4,
+      "nodeTextEng": "Do you have a visa to enter the US?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "4Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "4N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 5,
+      "nodeTextEng": "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "5Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "5N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 6,
+      "nodeTextEng": "Processed at port of entry by CBP OFO",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 7,
+      "nodeTextEng": "Are you put on parole + ATD or issued a Notice to Appear?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "7Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "7N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 8,
+      "nodeTextEng": "Non-detained Immigration Court process",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 9,
+      "nodeTextEng": "Did/Can you apply for asylum or other form of relief?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "9Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "9N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 10,
+      "nodeTextEng": "Did you win asylum or another form of relief?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "10Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "10N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 11,
+      "nodeTextEng": "Can you appeal?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "11Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "11N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 12,
+      "nodeTextEng": "Did you win your appeal?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "12Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "12N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 13,
+      "nodeTextEng": "Title 8 ICE detention",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 14,
+      "nodeTextEng": "Did/Can you request asylum or express fear of persecution?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "14Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "14N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 15,
+      "nodeTextEng": "Did you pass the credible or reasonable fear interview?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "15Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "15N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 16,
+      "nodeTextEng": "Did you pass IJ review?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "16Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "16N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 17,
+      "nodeTextEng": "Did DHS choose to release you on parole?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "17Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "17N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 18,
+      "nodeTextEng": "Are you eligible for bond?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "18Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "18N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 19,
+      "nodeTextEng": "Did you win your bond request, and can you pay for it?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "19Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "19N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 20,
+      "nodeTextEng": "Were you taken into custody?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "20Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "20N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 21,
+      "nodeTextEng": "Processed between ports of entry by Border Patrol",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 22,
+      "nodeTextEng": "Do you have a prior deportation order?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "22Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "22N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 23,
+      "nodeTextEng": "Do you have a felony prosecution?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "23Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "23N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 24,
+      "nodeTextEng": "Are you an unaccompanied child?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "24Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "24N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 25,
+      "nodeTextEng": "Are you from Mexico?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "25Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "25N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 26,
+      "nodeTextEng": "Are you a victim of trafficking?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "26Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "26N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 27,
+      "nodeTextEng": "Are you part of a Family Unit?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "27Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "27N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 28,
+      "nodeTextEng": "Did you cross in South Texas with a child under 7?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "28Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "28N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 29,
+      "nodeTextEng": "You are transferred to ORR custody",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 30,
+      "nodeTextEng": "Do you have a sponsor inside the US?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "30Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "30N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 31,
+      "nodeTextEng": "Does DHS have logistical capacity to expel you, and there are no other obstacles such as physical health that prevent expulsion?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "31Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "31N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 32,
+      "nodeTextEng": "Are you Mexican, Guatemalan, Honduran, Salvadoran, or Venezuelan?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "32Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "32N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 33,
+      "nodeTextEng": "Does your country accept Title 42 deportation flights?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "33Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "33N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 34,
+      "nodeTextEng": "Were you picked up in the Rio Grande Valley?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "34Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "34N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 35,
+      "nodeTextEng": "Title 8",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 36,
+      "nodeTextEng": "Does DHS have the capacity to send you to detention?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "36Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "36N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 37,
+      "nodeTextEng": "Do you intend to reside in Boston, Miami, New York City, Newark, San Francisco, Los Angeles, Chicago, Washington, DC, or New Orleans?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "37Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "37N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 38,
+      "nodeTextEng": "Asylum processing rule likely applies",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 39,
+      "nodeTextEng": "Did you pass the credible or reasonable fear interview within the asylum processing rule?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "39Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "39N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": 40,
+      "nodeTextEng": "Your Asylum Merits Interview (AMI) occurs within 21-45 days of you credible fear interview. You must submit any evidence 7-10 days before your AMI.",
+      "nodeType": "Process"
+    },
+    {
+      "nodeID": 41,
+      "nodeTextEng": "Are you granted asylum?",
+      "nodeType": "Question"
+    },
+    {
+      "nodeID": "41Y",
+      "nodeTextEng": "Yes",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "41N",
+      "nodeTextEng": "No",
+      "nodeType": "Answer"
+    },
+    {
+      "nodeID": "??5",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "??23",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "??26",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "??30",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "??37",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "??41",
+      "nodeTextEng": "??",
+      "nodeType": "??"
+    },
+    {
+      "nodeID": "T01",
+      "nodeTextEng": "Asylum",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T02",
+      "nodeTextEng": "Granted relief",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T03",
+      "nodeTextEng": "Issued order of removal",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T04",
+      "nodeTextEng": "Inside the US without authorization",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T05",
+      "nodeTextEng": "Title 42 to a country other than Mexico",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T06",
+      "nodeTextEng": "Title 42 back to Mexico",
+      "nodeType": "Terminus"
+    },
+    {
+      "nodeID": "T07",
+      "nodeTextEng": "Apply for asylum affirmatively with USCIS",
+      "nodeType": "Terminus"
+    }
+  ],
+
+  "links": [
+    {
+      "target": 1
+    },
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 4,
+      "target": "4Y"
+    },
+    {
+      "source": 4,
+      "target": "4N"
+    },
+    {
+      "source": "4N",
+      "target": 5
+    },
+    {
+      "source": 5,
+      "target": "5Y"
+    },
+    {
+      "source": 5,
+      "target": "5N"
+    },
+    {
+      "source": "5Y",
+      "target": 6
+    },
+    {
+      "source": 6,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": "7Y"
+    },
+    {
+      "source": 7,
+      "target": "7N"
+    },
+    {
+      "source": "7Y",
+      "target": 8
+    },
+    {
+      "source": "17Y",
+      "target": 8
+    },
+    {
+      "source": "19Y",
+      "target": 8
+    },
+    {
+      "source": "28Y",
+      "target": 8
+    },
+    {
+      "source": "30Y",
+      "target": 8
+    },
+    {
+      "source": "36N",
+      "target": 8
+    },
+    {
+      "source": 8,
+      "target": 9
+    },
+    {
+      "source": 9,
+      "target": "9Y"
+    },
+    {
+      "source": 9,
+      "target": "9N"
+    },
+    {
+      "source": "9Y",
+      "target": 10
+    },
+    {
+      "source": "18N",
+      "target": 10
+    },
+    {
+      "source": "19N",
+      "target": 10
+    },
+    {
+      "source": 10,
+      "target": "10Y"
+    },
+    {
+      "source": 10,
+      "target": "10N"
+    },
+    {
+      "source": "10N",
+      "target": 11
+    },
+    {
+      "source": 11,
+      "target": "11Y"
+    },
+    {
+      "source": 11,
+      "target": "11N"
+    },
+    {
+      "source": "11Y",
+      "target": 12
+    },
+    {
+      "source": 12,
+      "target": "12Y"
+    },
+    {
+      "source": 12,
+      "target": "12N"
+    },
+    {
+      "source": "7N",
+      "target": 13
+    },
+    {
+      "source": "23Y",
+      "target": 13
+    },
+    {
+      "source": "36Y",
+      "target": 13
+    },
+    {
+      "source": 13,
+      "target": 14
+    },
+    {
+      "source": 14,
+      "target": "14Y"
+    },
+    {
+      "source": 14,
+      "target": "14N"
+    },
+    {
+      "source": "14Y",
+      "target": 15
+    },
+    {
+      "source": 15,
+      "target": "15Y"
+    },
+    {
+      "source": 15,
+      "target": "15N"
+    },
+    {
+      "source": "15N",
+      "target": 16
+    },
+    {
+      "source": "39N",
+      "target": 16
+    },
+    {
+      "source": 16,
+      "target": "16Y"
+    },
+    {
+      "source": 16,
+      "target": "16N"
+    },
+    {
+      "source": "15Y",
+      "target": 17
+    },
+    {
+      "source": "16Y",
+      "target": 17
+    },
+    {
+      "source": 17,
+      "target": "17Y"
+    },
+    {
+      "source": 17,
+      "target": "17N"
+    },
+    {
+      "source": "17N",
+      "target": 18
+    },
+    {
+      "source": 18,
+      "target": "18Y"
+    },
+    {
+      "source": 18,
+      "target": "18N"
+    },
+    {
+      "source": "18Y",
+      "target": 19
+    },
+    {
+      "source": 19,
+      "target": "19Y"
+    },
+    {
+      "source": 19,
+      "target": "19N"
+    },
+    {
+      "source": 3,
+      "target": 20
+    },
+    {
+      "source": 20,
+      "target": "20Y"
+    },
+    {
+      "source": 20,
+      "target": "20N"
+    },
+    {
+      "source": "20Y",
+      "target": 21
+    },
+    {
+      "source": 21,
+      "target": 22
+    },
+    {
+      "source": 22,
+      "target": "22Y"
+    },
+    {
+      "source": 22,
+      "target": "22N"
+    },
+    {
+      "source": "22Y",
+      "target": 23
+    },
+    {
+      "source": 23,
+      "target": "23Y"
+    },
+    {
+      "source": 23,
+      "target": "23N"
+    },
+    {
+      "source": "22N",
+      "target": 24
+    },
+    {
+      "source": 24,
+      "target": "24Y"
+    },
+    {
+      "source": 24,
+      "target": "24N"
+    },
+    {
+      "source": "24Y",
+      "target": 25
+    },
+    {
+      "source": 25,
+      "target": "25Y"
+    },
+    {
+      "source": 25,
+      "target": "25N"
+    },
+    {
+      "source": "25Y",
+      "target": 26
+    },
+    {
+      "source": 26,
+      "target": "26Y"
+    },
+    {
+      "source": 26,
+      "target": "26N"
+    },
+    {
+      "source": "24N",
+      "target": 27
+    },
+    {
+      "source": 27,
+      "target": "27Y"
+    },
+    {
+      "source": 27,
+      "target": "27N"
+    },
+    {
+      "source": "27Y",
+      "target": 28
+    },
+    {
+      "source": 28,
+      "target": "28Y"
+    },
+    {
+      "source": 28,
+      "target": "28N"
+    },
+    {
+      "source": "25N",
+      "target": 29
+    },
+    {
+      "source": 29,
+      "target": 30
+    },
+    {
+      "source": 30,
+      "target": "30Y"
+    },
+    {
+      "source": 30,
+      "target": "30N"
+    },
+    {
+      "source": "27N",
+      "target": 31
+    },
+    {
+      "source": "28N",
+      "target": 31
+    },
+    {
+      "source": 31,
+      "target": "31Y"
+    },
+    {
+      "source": 31,
+      "target": "31N"
+    },
+    {
+      "source": "31Y",
+      "target": 32
+    },
+    {
+      "source": 32,
+      "target": "32Y"
+    },
+    {
+      "source": 32,
+      "target": "32N"
+    },
+    {
+      "source": "32N",
+      "target": 33
+    },
+    {
+      "source": 33,
+      "target": "33Y"
+    },
+    {
+      "source": 33,
+      "target": "33N"
+    },
+    {
+      "source": "33N",
+      "target": 34
+    },
+    {
+      "source": 34,
+      "target": "34Y"
+    },
+    {
+      "source": 34,
+      "target": "34N"
+    },
+    {
+      "source": "31N",
+      "target": 35
+    },
+    {
+      "source": "34N",
+      "target": 35
+    },
+    {
+      "source": 35,
+      "target": 36
+    },
+    {
+      "source": 36,
+      "target": "36Y"
+    },
+    {
+      "source": 36,
+      "target": "36N"
+    },
+    {
+      "source": "34Y",
+      "target": 37
+    },
+    {
+      "source": 37,
+      "target": "37Y"
+    },
+    {
+      "source": 37,
+      "target": "37N"
+    },
+    {
+      "source": "37Y",
+      "target": 38
+    },
+    {
+      "source": 38,
+      "target": 39
+    },
+    {
+      "source": 39,
+      "target": "39Y"
+    },
+    {
+      "source": 39,
+      "target": "39N"
+    },
+    {
+      "source": "39Y",
+      "target": 40
+    },
+    {
+      "source": 40,
+      "target": 41
+    },
+    {
+      "source": 41,
+      "target": "41Y"
+    },
+    {
+      "source": 41,
+      "target": "41N"
+    },
+    {
+      "source": "5N",
+      "target": "??5"
+    },
+    {
+      "source": "23N",
+      "target": "??23"
+    },
+    {
+      "source": "26Y",
+      "target": "??26"
+    },
+    {
+      "source": "30N",
+      "target": "??30"
+    },
+    {
+      "source": "37N",
+      "target": "??37"
+    },
+    {
+      "source": "41N",
+      "target": "??41"
+    },
+    {
+      "source": "41Y",
+      "target": "T01"
+    },
+    {
+      "source": "10Y",
+      "target": "T02"
+    },
+    {
+      "source": "12Y",
+      "target": "T02"
+    },
+    {
+      "source": "9N",
+      "target": "T03"
+    },
+    {
+      "source": "11N",
+      "target": "T03"
+    },
+    {
+      "source": "12N",
+      "target": "T03"
+    },
+    {
+      "source": "14N",
+      "target": "T03"
+    },
+    {
+      "source": "16N",
+      "target": "T03"
+    },
+    {
+      "source": "26N",
+      "target": "T03"
+    },
+    {
+      "source": "20N",
+      "target": "T04"
+    },
+    {
+      "source": "33Y",
+      "target": "T05"
+    },
+    {
+      "source": "32Y",
+      "target": "T06"
+    },
+    {
+      "source": "4Y",
+      "target": "T07"
+    }
+  ]
+}

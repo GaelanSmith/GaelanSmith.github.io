@@ -103,15 +103,15 @@
         viewgraph.nodes.push(v);
     }
 
-    function getNode(name) {
+    function getNode(nodeID) {
         var v, i = modelgraph.nodes.length;
-        while (i--) if ((v = modelgraph.nodes[i]).name == name) return v;
+        while (i--) if ((v = modelgraph.nodes[i]).nodeID == nodeID) return v;
         return null;
     }
 
     function click(node) {
         if (node.colour == "blue") return;
-        var focus = getNode(node.name);
+        var focus = getNode(node.nodeID);
         refocus(focus);
         update();
     }
@@ -185,7 +185,7 @@
 
         node.style("fill", function (d) { return d.colour; })
             .append("title")
-            .text(function (d) { return d.label; });
+            .text(function (d) { return d.nodeTextEng; });
 
         cola.on("tick", function () {
             link.attr("x1", function (d) { return d.source.x; })

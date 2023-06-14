@@ -2,1995 +2,1995 @@
   "nodes": [
     {
       "image": "biological_images/C00002",
-      "name": 1,
-      "label": "ATP"
+      "nodeID": 1,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 2,
-      "label": "ATP"
+      "nodeID": 2,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 3,
-      "label": "ATP"
+      "nodeID": 3,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 4,
-      "label": "ATP"
+      "nodeID": 4,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 5,
-      "label": "ATP"
+      "nodeID": 5,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 6,
-      "label": "ATP"
+      "nodeID": 6,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 7,
-      "label": "ATP"
+      "nodeID": 7,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 8,
-      "label": "ATP"
+      "nodeID": 8,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00002",
-      "name": 9,
-      "label": "ATP"
+      "nodeID": 9,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 10,
-      "label": "ADP"
+      "nodeID": 10,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 11,
-      "label": "ADP"
+      "nodeID": 11,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 12,
-      "label": "ADP"
+      "nodeID": 12,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 13,
-      "label": "ADP"
+      "nodeID": 13,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 14,
-      "label": "ADP"
+      "nodeID": 14,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 15,
-      "label": "ADP"
+      "nodeID": 15,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 16,
-      "label": "ADP"
+      "nodeID": 16,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 17,
-      "label": "P"
+      "nodeID": 17,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 18,
-      "label": "P"
+      "nodeID": 18,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 19,
-      "label": "P"
+      "nodeID": 19,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 20,
-      "label": "P"
+      "nodeID": 20,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 21,
-      "label": "P"
+      "nodeID": 21,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 22,
-      "label": "P"
+      "nodeID": 22,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 23,
-      "label": "P"
+      "nodeID": 23,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 24,
-      "label": "P"
+      "nodeID": 24,
+      "nodeTextEng": "P"
     },
     {
-      "name": 25,
-      "label": "glucose 1-phosphate"
-    },
-    {
-      "image": "biological_images/C06262",
-      "name": 26,
-      "label": "P"
+      "nodeID": 25,
+      "nodeTextEng": "glucose 1-phosphate"
     },
     {
       "image": "biological_images/C06262",
-      "name": 27,
-      "label": "P"
+      "nodeID": 26,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 28,
-      "label": "P"
+      "nodeID": 27,
+      "nodeTextEng": "P"
     },
     {
-      "name": 29,
-      "label": "PP"
+      "image": "biological_images/C06262",
+      "nodeID": 28,
+      "nodeTextEng": "P"
     },
     {
-      "name": 30,
-      "label": "PP"
+      "nodeID": 29,
+      "nodeTextEng": "PP"
     },
     {
-      "name": 31,
-      "label": "PP"
+      "nodeID": 30,
+      "nodeTextEng": "PP"
+    },
+    {
+      "nodeID": 31,
+      "nodeTextEng": "PP"
     },
     {
       "image": "biological_images/C00003",
-      "name": 32,
-      "label": "NAD+"
+      "nodeID": 32,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00003",
-      "name": 33,
-      "label": "NAD+"
+      "nodeID": 33,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00003",
-      "name": 34,
-      "label": "NAD+"
+      "nodeID": 34,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 35,
-      "label": "NADH"
+      "nodeID": 35,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00004",
-      "name": 36,
-      "label": "NADH"
+      "nodeID": 36,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00004",
-      "name": 37,
-      "label": "NADH"
+      "nodeID": 37,
+      "nodeTextEng": "NADH"
     },
     {
-      "name": 38,
-      "label": "2-Phospho-glycerate"
+      "nodeID": 38,
+      "nodeTextEng": "2-Phospho-glycerate"
     },
     {
       "image": "biological_images/C00022",
-      "name": 39,
-      "label": "pyruvate"
+      "nodeID": 39,
+      "nodeTextEng": "pyruvate"
     },
     {
       "image": "biological_images/C00006",
-      "name": 40,
-      "label": "NADP+"
+      "nodeID": 40,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00006",
-      "name": 41,
-      "label": "NADP+"
+      "nodeID": 41,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00006",
-      "name": 42,
-      "label": "NADP+"
+      "nodeID": 42,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 43,
-      "label": "NADPH"
+      "nodeID": 43,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00005",
-      "name": 44,
-      "label": "NADPH"
+      "nodeID": 44,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00005",
-      "name": 45,
-      "label": "NADPH"
+      "nodeID": 45,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00036",
-      "name": 46,
-      "label": "oxaloacetate"
+      "nodeID": 46,
+      "nodeTextEng": "oxaloacetate"
     },
     {
       "image": "biological_images/C00711",
-      "name": 47,
-      "label": "malate"
+      "nodeID": 47,
+      "nodeTextEng": "malate"
     },
     {
       "image": "biological_images/C00011",
-      "name": 48,
-      "label": "CO2"
+      "nodeID": 48,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00011",
-      "name": 49,
-      "label": "CO2"
+      "nodeID": 49,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00011",
-      "name": 50,
-      "label": "CO2"
+      "nodeID": 50,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00011",
-      "name": 51,
-      "label": "CO2"
+      "nodeID": 51,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00025",
-      "name": 52,
-      "label": "L-glutamate"
+      "nodeID": 52,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00020",
-      "name": 53,
-      "label": "AMP"
+      "nodeID": 53,
+      "nodeTextEng": "AMP"
     },
     {
       "image": "biological_images/C00020",
-      "name": 54,
-      "label": "AMP"
+      "nodeID": 54,
+      "nodeTextEng": "AMP"
     },
     {
-      "name": 55,
-      "label": "glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)"
+      "nodeID": 55,
+      "nodeTextEng": "glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)"
     },
     {
-      "name": 56,
-      "label": "glyceraldehyde-3-phosphate dehydrogenase (NADP)"
+      "nodeID": 56,
+      "nodeTextEng": "glyceraldehyde-3-phosphate dehydrogenase (NADP)"
     },
     {
-      "name": 57,
-      "label": "diphosphate-fructose-6-phosphate 1-phosphotransferase "
+      "nodeID": 57,
+      "nodeTextEng": "diphosphate-fructose-6-phosphate 1-phosphotransferase "
     },
     {
-      "name": 58,
-      "label": "phosphoenolpyruvat/phosphat transporter"
+      "nodeID": 58,
+      "nodeTextEng": "phosphoenolpyruvat/phosphat transporter"
     },
     {
-      "name": 59,
-      "label": "phosphoglucomutase (pPGM)"
+      "nodeID": 59,
+      "nodeTextEng": "phosphoglucomutase (pPGM)"
     },
     {
-      "name": 60,
-      "label": "6-phosphofructokinase (pPFK)"
+      "nodeID": 60,
+      "nodeTextEng": "6-phosphofructokinase (pPFK)"
     },
     {
-      "name": 61,
-      "label": "fructose-bisphosphate aldolase (pALD)"
+      "nodeID": 61,
+      "nodeTextEng": "fructose-bisphosphate aldolase (pALD)"
     },
     {
-      "name": 62,
-      "label": "phosphoglucomutase (cPGM)"
+      "nodeID": 62,
+      "nodeTextEng": "phosphoglucomutase (cPGM)"
     },
     {
-      "name": 63,
-      "label": "phosphoglucose isomerase (cPGI)"
+      "nodeID": 63,
+      "nodeTextEng": "phosphoglucose isomerase (cPGI)"
     },
     {
-      "name": 64,
-      "label": "phosphoglucose isomerase (pPGI)"
+      "nodeID": 64,
+      "nodeTextEng": "phosphoglucose isomerase (pPGI)"
     },
     {
-      "name": 65,
-      "label": "phosphoglycerate kinase (cPGlyK)"
+      "nodeID": 65,
+      "nodeTextEng": "phosphoglycerate kinase (cPGlyK)"
     },
     {
-      "name": 66,
-      "label": "phosphoglycerate kinase (pPGlyK)"
+      "nodeID": 66,
+      "nodeTextEng": "phosphoglycerate kinase (pPGlyK)"
     },
     {
-      "name": 67,
-      "label": "phosphoglycerate mutase (cPGlyM)"
+      "nodeID": 67,
+      "nodeTextEng": "phosphoglycerate mutase (cPGlyM)"
     },
     {
-      "name": 68,
-      "label": "phosphoglycerate mutase (pPGlyM)"
+      "nodeID": 68,
+      "nodeTextEng": "phosphoglycerate mutase (pPGlyM)"
     },
     {
-      "name": 69,
-      "label": "phosphopyruvate hydratase (cENOLASE)"
+      "nodeID": 69,
+      "nodeTextEng": "phosphopyruvate hydratase (cENOLASE)"
     },
     {
-      "name": 70,
-      "label": "phosphopyruvate hydratase (pENOLASE)"
+      "nodeID": 70,
+      "nodeTextEng": "phosphopyruvate hydratase (pENOLASE)"
     },
     {
-      "name": 71,
-      "label": "pyruvate kinase (cPK)"
+      "nodeID": 71,
+      "nodeTextEng": "pyruvate kinase (cPK)"
     },
     {
-      "name": 72,
-      "label": "pyruvate kinase (pPK)"
+      "nodeID": 72,
+      "nodeTextEng": "pyruvate kinase (pPK)"
     },
     {
-      "name": 73,
-      "label": "triose phosphate isomerase (cTIM)"
+      "nodeID": 73,
+      "nodeTextEng": "triose phosphate isomerase (cTIM)"
     },
     {
-      "name": 74,
-      "label": "triose phosphate isomerase (pTIM)"
+      "nodeID": 74,
+      "nodeTextEng": "triose phosphate isomerase (pTIM)"
     },
     {
-      "name": 75,
-      "label": "malate dehydrogenase"
+      "nodeID": 75,
+      "nodeTextEng": "malate dehydrogenase"
     },
     {
-      "name": 76,
-      "label": "phosphoenolpyruvate carboxylase"
+      "nodeID": 76,
+      "nodeTextEng": "phosphoenolpyruvate carboxylase"
     },
     {
-      "name": 77,
-      "label": "malate dehydrogenase (decarboxylating)"
+      "nodeID": 77,
+      "nodeTextEng": "malate dehydrogenase (decarboxylating)"
     },
     {
-      "name": 78,
-      "label": "malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)"
+      "nodeID": 78,
+      "nodeTextEng": "malate dehydrogenase (oxaloacetate-decarboxylating) (NADP+)"
     },
     {
-      "name": 79,
-      "label": "phosphoenolpyruvate carboxykinase (ATP)"
+      "nodeID": 79,
+      "nodeTextEng": "phosphoenolpyruvate carboxykinase (ATP)"
     },
     {
-      "name": 80,
-      "label": "G1P  transporter"
+      "nodeID": 80,
+      "nodeTextEng": "G1P  transporter"
     },
     {
-      "name": 81,
-      "label": "malate/glutamate transporter"
+      "nodeID": 81,
+      "nodeTextEng": "malate/glutamate transporter"
     },
     {
-      "name": 82,
-      "label": "pyruvate transporter"
+      "nodeID": 82,
+      "nodeTextEng": "pyruvate transporter"
     },
     {
-      "name": 83,
-      "label": "OAA/malate transporter"
+      "nodeID": 83,
+      "nodeTextEng": "OAA/malate transporter"
     },
     {
-      "name": 84,
-      "label": "pyruvate, phosphate dikinase (cPPDK)"
+      "nodeID": 84,
+      "nodeTextEng": "pyruvate, phosphate dikinase (cPPDK)"
     },
     {
-      "name": 85,
-      "label": "pyruvate, phosphate dikinase (pPPDK)"
+      "nodeID": 85,
+      "nodeTextEng": "pyruvate, phosphate dikinase (pPPDK)"
     },
     {
-      "name": 86,
-      "label": "fructose-1,6-bisphosphatase (pFBPase)"
+      "nodeID": 86,
+      "nodeTextEng": "fructose-1,6-bisphosphatase (pFBPase)"
     },
     {
-      "name": 87,
-      "label": "triosephosphat/P translocator (TPT2_DHAP)"
+      "nodeID": 87,
+      "nodeTextEng": "triosephosphat/P translocator (TPT2_DHAP)"
     },
     {
-      "name": 88,
-      "label": "triosephosphat/P translocator (TPT1_GAP)"
+      "nodeID": 88,
+      "nodeTextEng": "triosephosphat/P translocator (TPT1_GAP)"
     },
     {
-      "name": 89,
-      "label": "triosephosphat/P translocator (TPT3_3-PGA)"
+      "nodeID": 89,
+      "nodeTextEng": "triosephosphat/P translocator (TPT3_3-PGA)"
     },
     {
-      "name": 90,
-      "label": "6-phosphofructokinase (cPFK)"
-    },
-    {
-      "image": "biological_images/C06262",
-      "name": 91,
-      "label": "P"
-    },
-    {
-      "name": 92,
-      "label": "G6P transporter"
+      "nodeID": 90,
+      "nodeTextEng": "6-phosphofructokinase (cPFK)"
     },
     {
       "image": "biological_images/C06262",
-      "name": 93,
-      "label": "P"
+      "nodeID": 91,
+      "nodeTextEng": "P"
     },
     {
-      "name": 94,
-      "label": "glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)"
+      "nodeID": 92,
+      "nodeTextEng": "G6P transporter"
     },
     {
       "image": "biological_images/C06262",
-      "name": 95,
-      "label": "P"
+      "nodeID": 93,
+      "nodeTextEng": "P"
     },
     {
-      "name": 96,
-      "label": "fructose-1,6-bisphosphatase (cFBPAse)"
+      "nodeID": 94,
+      "nodeTextEng": "glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating)"
     },
     {
-      "name": 97,
-      "label": "fructose 6-phosphate"
+      "image": "biological_images/C06262",
+      "nodeID": 95,
+      "nodeTextEng": "P"
     },
     {
-      "name": 98,
-      "label": "fructose 1,6-bisphosphate"
+      "nodeID": 96,
+      "nodeTextEng": "fructose-1,6-bisphosphatase (cFBPAse)"
     },
     {
-      "name": 99,
-      "label": "glucose 1-phosphate"
+      "nodeID": 97,
+      "nodeTextEng": "fructose 6-phosphate"
     },
     {
-      "name": 100,
-      "label": "glyceraldehyde 3-phosphate"
+      "nodeID": 98,
+      "nodeTextEng": "fructose 1,6-bisphosphate"
     },
     {
-      "name": 101,
-      "label": "1,3 - Bisphospho - glycerate"
+      "nodeID": 99,
+      "nodeTextEng": "glucose 1-phosphate"
     },
     {
-      "name": 102,
-      "label": "fructose-bisphosphate aldolase (cALD)"
+      "nodeID": 100,
+      "nodeTextEng": "glyceraldehyde 3-phosphate"
     },
     {
-      "name": 103,
-      "label": "3-phospho-glycerate"
+      "nodeID": 101,
+      "nodeTextEng": "1,3 - Bisphospho - glycerate"
+    },
+    {
+      "nodeID": 102,
+      "nodeTextEng": "fructose-bisphosphate aldolase (cALD)"
+    },
+    {
+      "nodeID": 103,
+      "nodeTextEng": "3-phospho-glycerate"
     },
     {
       "image": "biological_images/C00074",
-      "name": 104,
-      "label": "phosphoenolpyruvate"
+      "nodeID": 104,
+      "nodeTextEng": "phosphoenolpyruvate"
     },
     {
       "image": "biological_images/C00092",
-      "name": 105,
-      "label": "glucose 6-phosphate"
+      "nodeID": 105,
+      "nodeTextEng": "glucose 6-phosphate"
     },
     {
-      "name": 106,
-      "label": "fructose 6-phosphate"
+      "nodeID": 106,
+      "nodeTextEng": "fructose 6-phosphate"
     },
     {
-      "name": 107,
-      "label": "fructose 1,6-bisphosphate"
+      "nodeID": 107,
+      "nodeTextEng": "fructose 1,6-bisphosphate"
     },
     {
       "image": "biological_images/C00111",
-      "name": 108,
-      "label": "dihydroxyacetone phosphate"
+      "nodeID": 108,
+      "nodeTextEng": "dihydroxyacetone phosphate"
     },
     {
-      "name": 109,
-      "label": "1,3 - Bisphospho - glycerate"
+      "nodeID": 109,
+      "nodeTextEng": "1,3 - Bisphospho - glycerate"
     },
     {
-      "name": 110,
-      "label": "2-Phospho-glycerate"
+      "nodeID": 110,
+      "nodeTextEng": "2-Phospho-glycerate"
     },
     {
       "image": "biological_images/C06262",
-      "name": 111,
-      "label": "P"
+      "nodeID": 111,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00092",
-      "name": 112,
-      "label": "glucose 6-phosphate"
+      "nodeID": 112,
+      "nodeTextEng": "glucose 6-phosphate"
     },
     {
       "image": "biological_images/C06262",
-      "name": 113,
-      "label": "P"
+      "nodeID": 113,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 114,
-      "label": "P"
+      "nodeID": 114,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 115,
-      "label": "P"
+      "nodeID": 115,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 116,
-      "label": "P"
+      "nodeID": 116,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00036",
-      "name": 117,
-      "label": "oxaloacetate"
+      "nodeID": 117,
+      "nodeTextEng": "oxaloacetate"
     },
     {
       "image": "biological_images/C06262",
-      "name": 118,
-      "label": "P"
+      "nodeID": 118,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00002",
-      "name": 119,
-      "label": "ATP"
+      "nodeID": 119,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 120,
-      "label": "ADP"
+      "nodeID": 120,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 121,
-      "label": "P"
+      "nodeID": 121,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00003",
-      "name": 122,
-      "label": "NAD+"
+      "nodeID": 122,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 123,
-      "label": "NADH"
+      "nodeID": 123,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00006",
-      "name": 124,
-      "label": "NADP+"
+      "nodeID": 124,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 125,
-      "label": "NADPH"
+      "nodeID": 125,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00026",
-      "name": 126,
-      "label": "2-oxoglutarate"
+      "nodeID": 126,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 127,
-      "label": "L-glutamate"
+      "nodeID": 127,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00148",
-      "name": 128,
-      "label": "L-proline"
+      "nodeID": 128,
+      "nodeTextEng": "L-proline"
     },
     {
-      "name": 129,
-      "label": "ornithine-oxo-acid transaminase"
+      "nodeID": 129,
+      "nodeTextEng": "ornithine-oxo-acid transaminase"
     },
     {
-      "name": 130,
-      "label": "pyrroline-5-carboxylate reductase"
+      "nodeID": 130,
+      "nodeTextEng": "pyrroline-5-carboxylate reductase"
     },
     {
-      "name": 131,
-      "label": "pyrroline-5-carboxylate synthase"
+      "nodeID": 131,
+      "nodeTextEng": "pyrroline-5-carboxylate synthase"
     },
     {
-      "name": 132,
-      "label": "glutamate 5-semialdehyde -  1-pyrroline-5-carboxylate (spontaneous reaction)"
+      "nodeID": 132,
+      "nodeTextEng": "glutamate 5-semialdehyde -  1-pyrroline-5-carboxylate (spontaneous reaction)"
     },
     {
-      "name": 133,
-      "label": "(spontaneous reaction)"
+      "nodeID": 133,
+      "nodeTextEng": "(spontaneous reaction)"
     },
     {
       "image": "biological_images/C01165",
-      "name": 134,
-      "label": "L-glutamate 5-semialdehyde"
+      "nodeID": 134,
+      "nodeTextEng": "L-glutamate 5-semialdehyde"
     },
     {
       "image": "biological_images/C03912",
-      "name": 135,
-      "label": "1-pyrroline-5-carboxylate"
+      "nodeID": 135,
+      "nodeTextEng": "1-pyrroline-5-carboxylate"
     },
     {
       "image": "biological_images/C00002",
-      "name": 136,
-      "label": "ATP"
+      "nodeID": 136,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 137,
-      "label": "ADP"
+      "nodeID": 137,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 138,
-      "label": "P"
+      "nodeID": 138,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C06262",
-      "name": 139,
-      "label": "P"
+      "nodeID": 139,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00006",
-      "name": 140,
-      "label": "NADP+"
+      "nodeID": 140,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 141,
-      "label": "NADPH"
+      "nodeID": 141,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00279",
-      "name": 142,
-      "label": "D-erythrose 4-phosphate"
+      "nodeID": 142,
+      "nodeTextEng": "D-erythrose 4-phosphate"
     },
     {
-      "name": 143,
-      "label": "3-deoxy-arabino-heptulosonate 7-phosphate"
+      "nodeID": 143,
+      "nodeTextEng": "3-deoxy-arabino-heptulosonate 7-phosphate"
     },
     {
       "image": "biological_images/C00944",
-      "name": 144,
-      "label": "3-dehydroquinate"
+      "nodeID": 144,
+      "nodeTextEng": "3-dehydroquinate"
     },
     {
       "image": "biological_images/C02637",
-      "name": 145,
-      "label": "3-dehydroshikimate"
+      "nodeID": 145,
+      "nodeTextEng": "3-dehydroshikimate"
     },
     {
       "image": "biological_images/C00493",
-      "name": 146,
-      "label": "shikimate"
+      "nodeID": 146,
+      "nodeTextEng": "shikimate"
     },
     {
       "image": "biological_images/C01269",
-      "name": 147,
-      "label": "5-O-(1-carboxyvinyl)-3-phosphoshikimate"
+      "nodeID": 147,
+      "nodeTextEng": "5-O-(1-carboxyvinyl)-3-phosphoshikimate"
     },
     {
-      "name": 148,
-      "label": "3-dehydroquinate synthase"
+      "nodeID": 148,
+      "nodeTextEng": "3-dehydroquinate synthase"
     },
     {
-      "name": 149,
-      "label": "3-dehydroquinate dehydratase"
+      "nodeID": 149,
+      "nodeTextEng": "3-dehydroquinate dehydratase"
     },
     {
-      "name": 150,
-      "label": "shikimate dehydrogenase"
+      "nodeID": 150,
+      "nodeTextEng": "shikimate dehydrogenase"
     },
     {
-      "name": 151,
-      "label": "shikimate kinase"
+      "nodeID": 151,
+      "nodeTextEng": "shikimate kinase"
     },
     {
-      "name": 152,
-      "label": "3-phosphoshikimate 1-carboxyvinyltransferase"
+      "nodeID": 152,
+      "nodeTextEng": "3-phosphoshikimate 1-carboxyvinyltransferase"
     },
     {
-      "name": 153,
-      "label": " 3-phosphoshikimate"
-    },
-    {
-      "image": "biological_images/C06262",
-      "name": 154,
-      "label": "P"
-    },
-    {
-      "name": 155,
-      "label": "3-deoxy-7-phosphoheptulonate synthase"
+      "nodeID": 153,
+      "nodeTextEng": " 3-phosphoshikimate"
     },
     {
       "image": "biological_images/C06262",
-      "name": 156,
-      "label": "P"
+      "nodeID": 154,
+      "nodeTextEng": "P"
     },
     {
-      "name": 157,
-      "label": "chorismate synthase"
+      "nodeID": 155,
+      "nodeTextEng": "3-deoxy-7-phosphoheptulonate synthase"
+    },
+    {
+      "image": "biological_images/C06262",
+      "nodeID": 156,
+      "nodeTextEng": "P"
+    },
+    {
+      "nodeID": 157,
+      "nodeTextEng": "chorismate synthase"
     },
     {
       "image": "biological_images/C00002",
-      "name": 158,
-      "label": "ATP"
+      "nodeID": 158,
+      "nodeTextEng": "ATP"
     },
     {
-      "name": 159,
-      "label": "PP"
+      "nodeID": 159,
+      "nodeTextEng": "PP"
     },
     {
       "image": "biological_images/C00003",
-      "name": 160,
-      "label": "NAD+"
+      "nodeID": 160,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 161,
-      "label": "NADH"
+      "nodeID": 161,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00036",
-      "name": 162,
-      "label": "oxaloacetate"
+      "nodeID": 162,
+      "nodeTextEng": "oxaloacetate"
     },
     {
       "image": "biological_images/C00026",
-      "name": 163,
-      "label": "2-oxoglutarate"
+      "nodeID": 163,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00122",
-      "name": 164,
-      "label": "fumarate"
+      "nodeID": 164,
+      "nodeTextEng": "fumarate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 165,
-      "label": "L-glutamate"
+      "nodeID": 165,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 166,
-      "label": "L-glutamate"
+      "nodeID": 166,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00064",
-      "name": 167,
-      "label": "L-glutamine"
+      "nodeID": 167,
+      "nodeTextEng": "L-glutamine"
     },
     {
       "image": "biological_images/C00020",
-      "name": 168,
-      "label": "AMP"
+      "nodeID": 168,
+      "nodeTextEng": "AMP"
     },
     {
       "image": "biological_images/C00014",
-      "name": 169,
-      "label": "NH3"
+      "nodeID": 169,
+      "nodeTextEng": "NH3"
     },
     {
-      "name": 170,
-      "label": "fumarate hydratase"
+      "nodeID": 170,
+      "nodeTextEng": "fumarate hydratase"
     },
     {
-      "name": 171,
-      "label": "asparagine synthase (glutamine-hydrolysing)"
+      "nodeID": 171,
+      "nodeTextEng": "asparagine synthase (glutamine-hydrolysing)"
     },
     {
-      "name": 172,
-      "label": "asparaginase"
+      "nodeID": 172,
+      "nodeTextEng": "asparaginase"
     },
     {
-      "name": 173,
-      "label": "malate dehydrogenase (mMalDH)"
+      "nodeID": 173,
+      "nodeTextEng": "malate dehydrogenase (mMalDH)"
     },
     {
-      "name": 174,
-      "label": "aspartate transaminase (cAAT)"
+      "nodeID": 174,
+      "nodeTextEng": "aspartate transaminase (cAAT)"
     },
     {
-      "name": 175,
-      "label": "OAA/malate transporter"
+      "nodeID": 175,
+      "nodeTextEng": "OAA/malate transporter"
     },
     {
       "image": "biological_images/C00049",
-      "name": 176,
-      "label": "L-aspartate"
+      "nodeID": 176,
+      "nodeTextEng": "L-aspartate"
     },
     {
       "image": "biological_images/C00152",
-      "name": 177,
-      "label": "L-asparagine"
+      "nodeID": 177,
+      "nodeTextEng": "L-asparagine"
     },
     {
       "image": "biological_images/C06262",
-      "name": 178,
-      "label": "P"
+      "nodeID": 178,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00003",
-      "name": 179,
-      "label": "NAD+"
+      "nodeID": 179,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 180,
-      "label": "NADH"
+      "nodeID": 180,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00024",
-      "name": 181,
-      "label": "acetyl-CoA"
+      "nodeID": 181,
+      "nodeTextEng": "acetyl-CoA"
     },
     {
       "image": "biological_images/C16374",
-      "name": 182,
-      "label": "CoA"
+      "nodeID": 182,
+      "nodeTextEng": "CoA"
     },
     {
       "image": "biological_images/C00026",
-      "name": 183,
-      "label": "2-oxoglutarate"
+      "nodeID": 183,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
-      "name": 184,
-      "label": "3-phospho-hydroxy-pyruvate"
+      "nodeID": 184,
+      "nodeTextEng": "3-phospho-hydroxy-pyruvate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 185,
-      "label": "L-glutamate"
+      "nodeID": 185,
+      "nodeTextEng": "L-glutamate"
     },
     {
-      "name": 186,
-      "label": "5,10-methylene-tetrahydrofolate"
+      "nodeID": 186,
+      "nodeTextEng": "5,10-methylene-tetrahydrofolate"
     },
     {
-      "name": 187,
-      "label": "L-glycine"
+      "nodeID": 187,
+      "nodeTextEng": "L-glycine"
     },
     {
       "image": "biological_images/C00101",
-      "name": 188,
-      "label": "tetrahydrofolate"
+      "nodeID": 188,
+      "nodeTextEng": "tetrahydrofolate"
     },
     {
       "image": "biological_images/C00283",
-      "name": 189,
-      "label": "hydrogen sulfide"
+      "nodeID": 189,
+      "nodeTextEng": "hydrogen sulfide"
     },
     {
       "image": "biological_images/C15061",
-      "name": 190,
-      "label": "acetate"
+      "nodeID": 190,
+      "nodeTextEng": "acetate"
     },
     {
-      "name": 191,
-      "label": "phosphoglycerate dehydrogenase"
+      "nodeID": 191,
+      "nodeTextEng": "phosphoglycerate dehydrogenase"
     },
     {
-      "name": 192,
-      "label": "phosphoserine transaminase"
+      "nodeID": 192,
+      "nodeTextEng": "phosphoserine transaminase"
     },
     {
-      "name": 193,
-      "label": "phosphoserine phosphatase"
+      "nodeID": 193,
+      "nodeTextEng": "phosphoserine phosphatase"
     },
     {
-      "name": 194,
-      "label": "glycine hydroxymethyltransferase"
+      "nodeID": 194,
+      "nodeTextEng": "glycine hydroxymethyltransferase"
     },
     {
-      "name": 195,
-      "label": "serine O-acetyltransferase"
+      "nodeID": 195,
+      "nodeTextEng": "serine O-acetyltransferase"
     },
     {
-      "name": 196,
-      "label": "cysteine synthase"
+      "nodeID": 196,
+      "nodeTextEng": "cysteine synthase"
     },
     {
       "image": "biological_images/C00979",
-      "name": 197,
-      "label": "O-acetyl-L-serine"
+      "nodeID": 197,
+      "nodeTextEng": "O-acetyl-L-serine"
     },
     {
-      "name": 198,
-      "label": "3-phospho-serine"
-    },
-    {
-      "image": "biological_images/C00002",
-      "name": 199,
-      "label": "ATP"
+      "nodeID": 198,
+      "nodeTextEng": "3-phospho-serine"
     },
     {
       "image": "biological_images/C00002",
-      "name": 200,
-      "label": "ATP"
+      "nodeID": 199,
+      "nodeTextEng": "ATP"
+    },
+    {
+      "image": "biological_images/C00002",
+      "nodeID": 200,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 201,
-      "label": "ADP"
+      "nodeID": 201,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 202,
-      "label": "ADP"
+      "nodeID": 202,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 203,
-      "label": "P"
+      "nodeID": 203,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00003",
-      "name": 204,
-      "label": "NAD+"
+      "nodeID": 204,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 205,
-      "label": "NADH"
+      "nodeID": 205,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00006",
-      "name": 206,
-      "label": "NADP+"
+      "nodeID": 206,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 207,
-      "label": "NADPH"
+      "nodeID": 207,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00049",
-      "name": 208,
-      "label": "L-aspartate"
+      "nodeID": 208,
+      "nodeTextEng": "L-aspartate"
     },
     {
-      "name": 209,
-      "label": "aspartate kinase"
+      "nodeID": 209,
+      "nodeTextEng": "aspartate kinase"
     },
     {
-      "name": 210,
-      "label": "aspartate-semialdehyde dehydrogenase"
+      "nodeID": 210,
+      "nodeTextEng": "aspartate-semialdehyde dehydrogenase"
     },
     {
-      "name": 211,
-      "label": "homoserine dehydrogenase"
+      "nodeID": 211,
+      "nodeTextEng": "homoserine dehydrogenase"
     },
     {
-      "name": 212,
-      "label": "homoserine kinase"
+      "nodeID": 212,
+      "nodeTextEng": "homoserine kinase"
     },
     {
       "image": "biological_images/C06262",
-      "name": 213,
-      "label": "P"
+      "nodeID": 213,
+      "nodeTextEng": "P"
     },
     {
-      "name": 214,
-      "label": "threonine synthase"
+      "nodeID": 214,
+      "nodeTextEng": "threonine synthase"
     },
     {
       "image": "biological_images/C03082",
-      "name": 215,
-      "label": "L-4-aspartyl phosphate"
+      "nodeID": 215,
+      "nodeTextEng": "L-4-aspartyl phosphate"
     },
     {
       "image": "biological_images/C00002",
-      "name": 216,
-      "label": "ATP"
+      "nodeID": 216,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 217,
-      "label": "ADP"
+      "nodeID": 217,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 218,
-      "label": "P"
+      "nodeID": 218,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00101",
-      "name": 219,
-      "label": "tetrahydrofolate"
+      "nodeID": 219,
+      "nodeTextEng": "tetrahydrofolate"
     },
     {
       "image": "biological_images/C00014",
-      "name": 220,
-      "label": "NH3"
+      "nodeID": 220,
+      "nodeTextEng": "NH3"
     },
     {
       "image": "biological_images/C00155",
-      "name": 221,
-      "label": "L-homocysteine"
+      "nodeID": 221,
+      "nodeTextEng": "L-homocysteine"
     },
     {
       "image": "biological_images/C00440",
-      "name": 222,
-      "label": "5-methyltetrahydrofolate"
+      "nodeID": 222,
+      "nodeTextEng": "5-methyltetrahydrofolate"
     },
     {
       "image": "biological_images/C00073",
-      "name": 223,
-      "label": "L-methionine"
+      "nodeID": 223,
+      "nodeTextEng": "L-methionine"
     },
     {
-      "name": 224,
-      "label": "homoserine kinase"
+      "nodeID": 224,
+      "nodeTextEng": "homoserine kinase"
     },
     {
-      "name": 225,
-      "label": "cystathionine gamma-synthase"
+      "nodeID": 225,
+      "nodeTextEng": "cystathionine gamma-synthase"
     },
     {
-      "name": 226,
-      "label": "cystathionine beta-lyase"
+      "nodeID": 226,
+      "nodeTextEng": "cystathionine beta-lyase"
     },
     {
-      "name": 227,
-      "label": "methionine synthase (pMS)"
+      "nodeID": 227,
+      "nodeTextEng": "methionine synthase (pMS)"
     },
     {
       "image": "biological_images/C02291",
-      "name": 228,
-      "label": "L-cystathionine"
+      "nodeID": 228,
+      "nodeTextEng": "L-cystathionine"
     },
     {
       "image": "biological_images/C16434",
-      "name": 229,
-      "label": "isoleucine"
+      "nodeID": 229,
+      "nodeTextEng": "isoleucine"
     },
     {
-      "name": 230,
-      "label": "threonine ammonia-lyase"
+      "nodeID": 230,
+      "nodeTextEng": "threonine ammonia-lyase"
     },
     {
       "image": "biological_images/C00011",
-      "name": 231,
-      "label": "CO2"
+      "nodeID": 231,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00025",
-      "name": 232,
-      "label": "L-glutamate"
+      "nodeID": 232,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00026",
-      "name": 233,
-      "label": "2-oxoglutarate"
+      "nodeID": 233,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
-      "name": 234,
-      "label": "branched-chain-amino-acid transaminase  (isoleucine synthesis)"
+      "nodeID": 234,
+      "nodeTextEng": "branched-chain-amino-acid transaminase  (isoleucine synthesis)"
     },
     {
-      "name": 235,
-      "label": "dihydroxy-acid dehydratase  (isoleucine synthesis)"
+      "nodeID": 235,
+      "nodeTextEng": "dihydroxy-acid dehydratase  (isoleucine synthesis)"
     },
     {
       "image": "biological_images/C00014",
-      "name": 236,
-      "label": "NH3"
+      "nodeID": 236,
+      "nodeTextEng": "NH3"
     },
     {
-      "name": 237,
-      "label": "acetolactate synthase (isoleucine synthesis)"
+      "nodeID": 237,
+      "nodeTextEng": "acetolactate synthase (isoleucine synthesis)"
     },
     {
       "image": "biological_images/C00005",
-      "name": 238,
-      "label": "NADPH"
+      "nodeID": 238,
+      "nodeTextEng": "NADPH"
     },
     {
-      "name": 239,
-      "label": "ketol-acid reductoisomerase  (isoleucine synthesis)"
+      "nodeID": 239,
+      "nodeTextEng": "ketol-acid reductoisomerase  (isoleucine synthesis)"
     },
     {
       "image": "biological_images/C00006",
-      "name": 240,
-      "label": "NADP+"
+      "nodeID": 240,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C04104",
-      "name": 241,
-      "label": "2,3-dihydroxy-3-methylvalerate"
+      "nodeID": 241,
+      "nodeTextEng": "2,3-dihydroxy-3-methylvalerate"
     },
     {
-      "name": 242,
-      "label": "2-acetohydroxybutyrate"
+      "nodeID": 242,
+      "nodeTextEng": "2-acetohydroxybutyrate"
     },
     {
       "image": "biological_images/C00109",
-      "name": 243,
-      "label": "2-oxobutyrate"
+      "nodeID": 243,
+      "nodeTextEng": "2-oxobutyrate"
     },
     {
-      "name": 244,
-      "label": "2-oxo-3-methylvalerate "
+      "nodeID": 244,
+      "nodeTextEng": "2-oxo-3-methylvalerate "
     },
     {
       "image": "biological_images/C00002",
-      "name": 245,
-      "label": "ATP"
+      "nodeID": 245,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 246,
-      "label": "P"
+      "nodeID": 246,
+      "nodeTextEng": "P"
     },
     {
-      "name": 247,
-      "label": "PP"
+      "nodeID": 247,
+      "nodeTextEng": "PP"
     },
     {
       "image": "biological_images/C00003",
-      "name": 248,
-      "label": "NAD+"
+      "nodeID": 248,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 249,
-      "label": "NADH"
+      "nodeID": 249,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00026",
-      "name": 250,
-      "label": "2-oxoglutarate"
+      "nodeID": 250,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 251,
-      "label": "L-glutamate"
+      "nodeID": 251,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00064",
-      "name": 252,
-      "label": "L-glutamine"
+      "nodeID": 252,
+      "nodeTextEng": "L-glutamine"
     },
     {
       "image": "biological_images/C02739",
-      "name": 253,
-      "label": "phosphoribosyl-ATP"
+      "nodeID": 253,
+      "nodeTextEng": "phosphoribosyl-ATP"
     },
     {
       "image": "biological_images/C02741",
-      "name": 254,
-      "label": "phosphoribosyl-AMP"
+      "nodeID": 254,
+      "nodeTextEng": "phosphoribosyl-AMP"
     },
     {
       "image": "biological_images/C04896",
-      "name": 255,
-      "label": "phosphoribosyl-formimino-AICAR-phosphate"
+      "nodeID": 255,
+      "nodeTextEng": "phosphoribosyl-formimino-AICAR-phosphate"
     },
     {
       "image": "biological_images/C04916",
-      "name": 256,
-      "label": "phosphoribulosyl-formimino-AICAR-phosphate"
+      "nodeID": 256,
+      "nodeTextEng": "phosphoribulosyl-formimino-AICAR-phosphate"
     },
     {
-      "name": 257,
-      "label": "D-erythro-imidazole-glycerol-phosphate"
+      "nodeID": 257,
+      "nodeTextEng": "D-erythro-imidazole-glycerol-phosphate"
     },
     {
       "image": "biological_images/C01267",
-      "name": 258,
-      "label": "imidazole-acetol phosphate"
+      "nodeID": 258,
+      "nodeTextEng": "imidazole-acetol phosphate"
     },
     {
       "image": "biological_images/C01100",
-      "name": 259,
-      "label": "L-histidinol phosphate"
+      "nodeID": 259,
+      "nodeTextEng": "L-histidinol phosphate"
     },
     {
       "image": "biological_images/C00860",
-      "name": 260,
-      "label": "L-histidinol"
+      "nodeID": 260,
+      "nodeTextEng": "L-histidinol"
     },
     {
       "image": "biological_images/C00135",
-      "name": 261,
-      "label": "L-histidine"
+      "nodeID": 261,
+      "nodeTextEng": "L-histidine"
     },
     {
       "image": "biological_images/C04677",
-      "name": 262,
-      "label": "AICAR"
+      "nodeID": 262,
+      "nodeTextEng": "AICAR"
     },
     {
-      "name": 263,
-      "label": "ATP phosphoribosyltransferase"
+      "nodeID": 263,
+      "nodeTextEng": "ATP phosphoribosyltransferase"
     },
     {
-      "name": 264,
-      "label": "phosphoribosyl-AMP cyclohydrolase"
+      "nodeID": 264,
+      "nodeTextEng": "phosphoribosyl-AMP cyclohydrolase"
     },
     {
-      "name": 265,
-      "label": "1-(5-phosphoribosyl)-5-((5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase"
+      "nodeID": 265,
+      "nodeTextEng": "1-(5-phosphoribosyl)-5-((5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase"
     },
     {
-      "name": 266,
-      "label": "imidazoleglycerol-phosphate dehydratase"
+      "nodeID": 266,
+      "nodeTextEng": "imidazoleglycerol-phosphate dehydratase"
     },
     {
-      "name": 267,
-      "label": "histidinol-phosphate transaminase"
+      "nodeID": 267,
+      "nodeTextEng": "histidinol-phosphate transaminase"
     },
     {
-      "name": 268,
-      "label": "histidinol-phosphatase"
+      "nodeID": 268,
+      "nodeTextEng": "histidinol-phosphatase"
     },
     {
-      "name": 269,
-      "label": "histidinol dehydrogenase"
+      "nodeID": 269,
+      "nodeTextEng": "histidinol dehydrogenase"
     },
     {
-      "name": 270,
-      "label": "PP"
+      "nodeID": 270,
+      "nodeTextEng": "PP"
     },
     {
-      "name": 271,
-      "label": "phosphoribosyl-ATP diphosphatase"
+      "nodeID": 271,
+      "nodeTextEng": "phosphoribosyl-ATP diphosphatase"
     },
     {
       "image": "biological_images/C00025",
-      "name": 272,
-      "label": "L-glutamate"
+      "nodeID": 272,
+      "nodeTextEng": "L-glutamate"
     },
     {
-      "name": 273,
-      "label": "imidazoleglycerol-phosphate synthase"
+      "nodeID": 273,
+      "nodeTextEng": "imidazoleglycerol-phosphate synthase"
     },
     {
       "image": "biological_images/C00002",
-      "name": 274,
-      "label": "ATP"
+      "nodeID": 274,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 275,
-      "label": "ADP"
+      "nodeID": 275,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 276,
-      "label": "P"
+      "nodeID": 276,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00006",
-      "name": 277,
-      "label": "NADP+"
+      "nodeID": 277,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 278,
-      "label": "NADPH"
+      "nodeID": 278,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00024",
-      "name": 279,
-      "label": "acetyl-CoA"
+      "nodeID": 279,
+      "nodeTextEng": "acetyl-CoA"
     },
     {
       "image": "biological_images/C16374",
-      "name": 280,
-      "label": "CoA"
+      "nodeID": 280,
+      "nodeTextEng": "CoA"
     },
     {
       "image": "biological_images/C00026",
-      "name": 281,
-      "label": "2-oxoglutarate"
+      "nodeID": 281,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00011",
-      "name": 282,
-      "label": "CO2"
+      "nodeID": 282,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C15061",
-      "name": 283,
-      "label": "acetate"
+      "nodeID": 283,
+      "nodeTextEng": "acetate"
     },
     {
       "image": "biological_images/C00064",
-      "name": 284,
-      "label": "L-glutamine"
+      "nodeID": 284,
+      "nodeTextEng": "L-glutamine"
     },
     {
       "image": "biological_images/C00624",
-      "name": 285,
-      "label": "N-acetyl-L-glutamate"
+      "nodeID": 285,
+      "nodeTextEng": "N-acetyl-L-glutamate"
     },
     {
-      "name": 286,
-      "label": "N-acetyl-5-glutamyl phosphate"
+      "nodeID": 286,
+      "nodeTextEng": "N-acetyl-5-glutamyl phosphate"
     },
     {
       "image": "biological_images/C01250",
-      "name": 287,
-      "label": "N-acetyl-L-glutamate 5-semialdehyde"
+      "nodeID": 287,
+      "nodeTextEng": "N-acetyl-L-glutamate 5-semialdehyde"
     },
     {
-      "name": 288,
-      "label": "N2-acetyl-ornithine"
+      "nodeID": 288,
+      "nodeTextEng": "N2-acetyl-ornithine"
     },
     {
       "image": "biological_images/C00169",
-      "name": 289,
-      "label": "carbamoyl phosphate"
+      "nodeID": 289,
+      "nodeTextEng": "carbamoyl phosphate"
     },
     {
-      "name": 290,
-      "label": "amino-acid N-acetyltransferase"
+      "nodeID": 290,
+      "nodeTextEng": "amino-acid N-acetyltransferase"
     },
     {
-      "name": 291,
-      "label": "aminoacylase"
+      "nodeID": 291,
+      "nodeTextEng": "aminoacylase"
     },
     {
-      "name": 292,
-      "label": "carbamoyl-phosphate synthase (glutamine-hydrolysing)"
+      "nodeID": 292,
+      "nodeTextEng": "carbamoyl-phosphate synthase (glutamine-hydrolysing)"
     },
     {
       "image": "biological_images/C00025",
-      "name": 293,
-      "label": "L-glutamate"
+      "nodeID": 293,
+      "nodeTextEng": "L-glutamate"
     },
     {
-      "name": 294,
-      "label": "acetylornithine transaminase"
+      "nodeID": 294,
+      "nodeTextEng": "acetylornithine transaminase"
     },
     {
       "image": "biological_images/C00002",
-      "name": 295,
-      "label": "ATP"
+      "nodeID": 295,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 296,
-      "label": "ADP"
+      "nodeID": 296,
+      "nodeTextEng": "ADP"
     },
     {
-      "name": 297,
-      "label": "acetylglutamate kinase"
-    },
-    {
-      "image": "biological_images/C06262",
-      "name": 298,
-      "label": "P"
-    },
-    {
-      "name": 299,
-      "label": "N-acetyl-gamma-glutamyl-phosphate reductase"
+      "nodeID": 297,
+      "nodeTextEng": "acetylglutamate kinase"
     },
     {
       "image": "biological_images/C06262",
-      "name": 300,
-      "label": "P"
+      "nodeID": 298,
+      "nodeTextEng": "P"
     },
     {
-      "name": 301,
-      "label": "ornithine carbamoyltransferase"
+      "nodeID": 299,
+      "nodeTextEng": "N-acetyl-gamma-glutamyl-phosphate reductase"
+    },
+    {
+      "image": "biological_images/C06262",
+      "nodeID": 300,
+      "nodeTextEng": "P"
+    },
+    {
+      "nodeID": 301,
+      "nodeTextEng": "ornithine carbamoyltransferase"
     },
     {
       "image": "biological_images/C00049",
-      "name": 302,
-      "label": "L-aspartate"
+      "nodeID": 302,
+      "nodeTextEng": "L-aspartate"
     },
     {
       "image": "biological_images/C00122",
-      "name": 303,
-      "label": "fumarate"
+      "nodeID": 303,
+      "nodeTextEng": "fumarate"
     },
     {
       "image": "biological_images/C00002",
-      "name": 304,
-      "label": "ATP"
+      "nodeID": 304,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00020",
-      "name": 305,
-      "label": "AMP"
+      "nodeID": 305,
+      "nodeTextEng": "AMP"
     },
     {
       "image": "biological_images/C00062",
-      "name": 306,
-      "label": "L-arginine"
+      "nodeID": 306,
+      "nodeTextEng": "L-arginine"
     },
     {
-      "name": 307,
-      "label": "argininosuccinate synthase"
+      "nodeID": 307,
+      "nodeTextEng": "argininosuccinate synthase"
     },
     {
-      "name": 308,
-      "label": "argininosuccinate lyase"
+      "nodeID": 308,
+      "nodeTextEng": "argininosuccinate lyase"
     },
     {
-      "name": 309,
-      "label": "PP"
+      "nodeID": 309,
+      "nodeTextEng": "PP"
     },
     {
       "image": "biological_images/C03406",
-      "name": 310,
-      "label": "L-argininosuccinate"
+      "nodeID": 310,
+      "nodeTextEng": "L-argininosuccinate"
     },
     {
       "image": "biological_images/C00327",
-      "name": 311,
-      "label": "L-citrulline"
+      "nodeID": 311,
+      "nodeTextEng": "L-citrulline"
     },
     {
       "image": "biological_images/C00002",
-      "name": 312,
-      "label": "ATP"
+      "nodeID": 312,
+      "nodeTextEng": "ATP"
     },
     {
       "image": "biological_images/C00008",
-      "name": 313,
-      "label": "ADP"
+      "nodeID": 313,
+      "nodeTextEng": "ADP"
     },
     {
       "image": "biological_images/C06262",
-      "name": 314,
-      "label": "P"
+      "nodeID": 314,
+      "nodeTextEng": "P"
     },
     {
       "image": "biological_images/C00003",
-      "name": 315,
-      "label": "NAD+"
+      "nodeID": 315,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 316,
-      "label": "NADH"
+      "nodeID": 316,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00006",
-      "name": 317,
-      "label": "NADP+"
+      "nodeID": 317,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 318,
-      "label": "NADPH"
+      "nodeID": 318,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00026",
-      "name": 319,
-      "label": "2-oxoglutarate"
+      "nodeID": 319,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00064",
-      "name": 320,
-      "label": "L-glutamine"
+      "nodeID": 320,
+      "nodeTextEng": "L-glutamine"
     },
     {
       "image": "biological_images/C00014",
-      "name": 321,
-      "label": "NH3"
+      "nodeID": 321,
+      "nodeTextEng": "NH3"
     },
     {
-      "name": 322,
-      "label": "glutamate synthase (NADH)"
+      "nodeID": 322,
+      "nodeTextEng": "glutamate synthase (NADH)"
     },
     {
-      "name": 323,
-      "label": "glutamate-ammonia ligase (pGlnS)"
+      "nodeID": 323,
+      "nodeTextEng": "glutamate-ammonia ligase (pGlnS)"
     },
     {
       "image": "biological_images/C00026",
-      "name": 324,
-      "label": "2-oxoglutarate"
+      "nodeID": 324,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00014",
-      "name": 325,
-      "label": "NH3"
+      "nodeID": 325,
+      "nodeTextEng": "NH3"
     },
     {
-      "name": 326,
-      "label": "glutamate dehydrogenase (NAD(P))"
+      "nodeID": 326,
+      "nodeTextEng": "glutamate dehydrogenase (NAD(P))"
     },
     {
-      "name": 327,
-      "label": "PP"
+      "nodeID": 327,
+      "nodeTextEng": "PP"
     },
     {
       "image": "biological_images/C00003",
-      "name": 328,
-      "label": "NAD+"
+      "nodeID": 328,
+      "nodeTextEng": "NAD+"
     },
     {
       "image": "biological_images/C00004",
-      "name": 329,
-      "label": "NADH"
+      "nodeID": 329,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C00026",
-      "name": 330,
-      "label": "2-oxoglutarate"
+      "nodeID": 330,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00011",
-      "name": 331,
-      "label": "CO2"
+      "nodeID": 331,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00011",
-      "name": 332,
-      "label": "CO2"
+      "nodeID": 332,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00025",
-      "name": 333,
-      "label": "L-glutamate"
+      "nodeID": 333,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 334,
-      "label": "L-glutamate"
+      "nodeID": 334,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00064",
-      "name": 335,
-      "label": "L-glutamine"
+      "nodeID": 335,
+      "nodeTextEng": "L-glutamine"
     },
     {
       "image": "biological_images/C00108",
-      "name": 336,
-      "label": "anthranilate"
+      "nodeID": 336,
+      "nodeTextEng": "anthranilate"
     },
     {
-      "name": 337,
-      "label": "N-(5-phosphoribosyl)-anthranilate"
+      "nodeID": 337,
+      "nodeTextEng": "N-(5-phosphoribosyl)-anthranilate"
     },
     {
-      "name": 338,
-      "label": "1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate"
+      "nodeID": 338,
+      "nodeTextEng": "1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate"
     },
     {
-      "name": 339,
-      "label": "1-(3-indolyl)-glycerol 3-phosphate"
+      "nodeID": 339,
+      "nodeTextEng": "1-(3-indolyl)-glycerol 3-phosphate"
     },
     {
       "image": "biological_images/C00078",
-      "name": 340,
-      "label": "L-tryptophan"
+      "nodeID": 340,
+      "nodeTextEng": "L-tryptophan"
     },
     {
       "image": "biological_images/C00826",
-      "name": 341,
-      "label": "L-arogenate"
+      "nodeID": 341,
+      "nodeTextEng": "L-arogenate"
     },
     {
       "image": "biological_images/C00082",
-      "name": 342,
-      "label": "L-tyrosine"
+      "nodeID": 342,
+      "nodeTextEng": "L-tyrosine"
     },
     {
       "image": "biological_images/C00079",
-      "name": 343,
-      "label": "L-phenylalanine"
+      "nodeID": 343,
+      "nodeTextEng": "L-phenylalanine"
     },
     {
-      "name": 344,
-      "label": "anthranilate synthase"
+      "nodeID": 344,
+      "nodeTextEng": "anthranilate synthase"
     },
     {
-      "name": 345,
-      "label": "anthranilate phosphoribosyltransferase"
+      "nodeID": 345,
+      "nodeTextEng": "anthranilate phosphoribosyltransferase"
     },
     {
-      "name": 346,
-      "label": "phosphoribosylanthranilate isomerase"
+      "nodeID": 346,
+      "nodeTextEng": "phosphoribosylanthranilate isomerase"
     },
     {
-      "name": 347,
-      "label": "Indole-3-glycerol-phosphate synthase"
+      "nodeID": 347,
+      "nodeTextEng": "Indole-3-glycerol-phosphate synthase"
     },
     {
-      "name": 348,
-      "label": "tryptophan synthase"
+      "nodeID": 348,
+      "nodeTextEng": "tryptophan synthase"
     },
     {
-      "name": 349,
-      "label": "chorismate mutase"
+      "nodeID": 349,
+      "nodeTextEng": "chorismate mutase"
     },
     {
-      "name": 350,
-      "label": "aromatic-amino-acid transaminase (prephenate aminotransferase)"
+      "nodeID": 350,
+      "nodeTextEng": "aromatic-amino-acid transaminase (prephenate aminotransferase)"
     },
     {
-      "name": 351,
-      "label": "arogenate dehydrogenase"
+      "nodeID": 351,
+      "nodeTextEng": "arogenate dehydrogenase"
     },
     {
-      "name": 352,
-      "label": "arogenate dehydratase"
+      "nodeID": 352,
+      "nodeTextEng": "arogenate dehydratase"
     },
     {
       "image": "biological_images/C00254",
-      "name": 353,
-      "label": "prephenate"
+      "nodeID": 353,
+      "nodeTextEng": "prephenate"
     },
     {
       "image": "biological_images/C00006",
-      "name": 354,
-      "label": "NADP+"
+      "nodeID": 354,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 355,
-      "label": "NADPH"
+      "nodeID": 355,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C00024",
-      "name": 356,
-      "label": "acetyl-CoA"
+      "nodeID": 356,
+      "nodeTextEng": "acetyl-CoA"
     },
     {
       "image": "biological_images/C16374",
-      "name": 357,
-      "label": "CoA"
+      "nodeID": 357,
+      "nodeTextEng": "CoA"
     },
     {
       "image": "biological_images/C00026",
-      "name": 358,
-      "label": "2-oxoglutarate"
+      "nodeID": 358,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00026",
-      "name": 359,
-      "label": "2-oxoglutarate"
+      "nodeID": 359,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00011",
-      "name": 360,
-      "label": "CO2"
+      "nodeID": 360,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00025",
-      "name": 361,
-      "label": "L-glutamate"
+      "nodeID": 361,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 362,
-      "label": "L-glutamate"
+      "nodeID": 362,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00900",
-      "name": 363,
-      "label": "2-acetolactate"
+      "nodeID": 363,
+      "nodeTextEng": "2-acetolactate"
     },
     {
-      "name": 364,
-      "label": "2,3-dihydroxyisovalerate"
+      "nodeID": 364,
+      "nodeTextEng": "2,3-dihydroxyisovalerate"
     },
     {
       "image": "biological_images/C00141",
-      "name": 365,
-      "label": "2-oxoisovalerate"
+      "nodeID": 365,
+      "nodeTextEng": "2-oxoisovalerate"
     },
     {
       "image": "biological_images/C00183",
-      "name": 366,
-      "label": "L-valine"
+      "nodeID": 366,
+      "nodeTextEng": "L-valine"
     },
     {
       "image": "biological_images/C02504",
-      "name": 367,
-      "label": "2-isopropylmalate"
+      "nodeID": 367,
+      "nodeTextEng": "2-isopropylmalate"
     },
     {
       "image": "biological_images/C00041",
-      "name": 368,
-      "label": "L-alanine"
+      "nodeID": 368,
+      "nodeTextEng": "L-alanine"
     },
     {
-      "name": 369,
-      "label": "acetolactate synthase (valin synthesis)"
+      "nodeID": 369,
+      "nodeTextEng": "acetolactate synthase (valin synthesis)"
     },
     {
-      "name": 370,
-      "label": "ketol-acid reductoisomerase (valin synthesis)"
+      "nodeID": 370,
+      "nodeTextEng": "ketol-acid reductoisomerase (valin synthesis)"
     },
     {
-      "name": 371,
-      "label": "dihydroxy-acid dehydratase (valin synthesis)"
+      "nodeID": 371,
+      "nodeTextEng": "dihydroxy-acid dehydratase (valin synthesis)"
     },
     {
-      "name": 372,
-      "label": "branched-chain-amino-acid transaminase (valine synthesis)"
+      "nodeID": 372,
+      "nodeTextEng": "branched-chain-amino-acid transaminase (valine synthesis)"
     },
     {
-      "name": 373,
-      "label": "2-isopropylmalate synthase"
+      "nodeID": 373,
+      "nodeTextEng": "2-isopropylmalate synthase"
     },
     {
-      "name": 374,
-      "label": "3-isopropylmalate dehydratase"
+      "nodeID": 374,
+      "nodeTextEng": "3-isopropylmalate dehydratase"
     },
     {
-      "name": 375,
-      "label": "alanine transaminase"
+      "nodeID": 375,
+      "nodeTextEng": "alanine transaminase"
     },
     {
       "image": "biological_images/C00003",
-      "name": 376,
-      "label": "NAD+"
+      "nodeID": 376,
+      "nodeTextEng": "NAD+"
     },
     {
-      "name": 377,
-      "label": "3-isopropylmalate dehydrogenase"
+      "nodeID": 377,
+      "nodeTextEng": "3-isopropylmalate dehydrogenase"
     },
     {
       "image": "biological_images/C00004",
-      "name": 378,
-      "label": "NADH"
+      "nodeID": 378,
+      "nodeTextEng": "NADH"
     },
     {
       "image": "biological_images/C04236",
-      "name": 379,
-      "label": "(2S)-2-isopropyl-3-oxosuccinate"
+      "nodeID": 379,
+      "nodeTextEng": "(2S)-2-isopropyl-3-oxosuccinate"
     },
     {
-      "name": 380,
-      "label": "spontaneous reaction (leucine synthesis)"
+      "nodeID": 380,
+      "nodeTextEng": "spontaneous reaction (leucine synthesis)"
     },
     {
       "image": "biological_images/C00011",
-      "name": 381,
-      "label": "CO2"
+      "nodeID": 381,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00233",
-      "name": 382,
-      "label": "2-oxoisocaproate"
+      "nodeID": 382,
+      "nodeTextEng": "2-oxoisocaproate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 383,
-      "label": "L-glutamate"
+      "nodeID": 383,
+      "nodeTextEng": "L-glutamate"
     },
     {
-      "name": 384,
-      "label": "branched-chain-amino-acid transaminase (leucine synthesis)"
+      "nodeID": 384,
+      "nodeTextEng": "branched-chain-amino-acid transaminase (leucine synthesis)"
     },
     {
       "image": "biological_images/C00026",
-      "name": 385,
-      "label": "2-oxoglutarate"
+      "nodeID": 385,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00123",
-      "name": 386,
-      "label": "L-leucine"
+      "nodeID": 386,
+      "nodeTextEng": "L-leucine"
     },
     {
       "image": "biological_images/C04411",
-      "name": 387,
-      "label": "3-isopropylmalate"
+      "nodeID": 387,
+      "nodeTextEng": "3-isopropylmalate"
     },
     {
       "image": "biological_images/C00006",
-      "name": 388,
-      "label": "NADP+"
+      "nodeID": 388,
+      "nodeTextEng": "NADP+"
     },
     {
       "image": "biological_images/C00005",
-      "name": 389,
-      "label": "NADPH"
+      "nodeID": 389,
+      "nodeTextEng": "NADPH"
     },
     {
       "image": "biological_images/C16374",
-      "name": 390,
-      "label": "CoA"
+      "nodeID": 390,
+      "nodeTextEng": "CoA"
     },
     {
       "image": "biological_images/C00026",
-      "name": 391,
-      "label": "2-oxoglutarate"
+      "nodeID": 391,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00026",
-      "name": 392,
-      "label": "2-oxoglutarate"
+      "nodeID": 392,
+      "nodeTextEng": "2-oxoglutarate"
     },
     {
       "image": "biological_images/C00091",
-      "name": 393,
-      "label": "succinyl-CoA"
+      "nodeID": 393,
+      "nodeTextEng": "succinyl-CoA"
     },
     {
       "image": "biological_images/C00042",
-      "name": 394,
-      "label": "succinate"
+      "nodeID": 394,
+      "nodeTextEng": "succinate"
     },
     {
       "image": "biological_images/C00011",
-      "name": 395,
-      "label": "CO2"
+      "nodeID": 395,
+      "nodeTextEng": "CO2"
     },
     {
       "image": "biological_images/C00025",
-      "name": 396,
-      "label": "L-glutamate"
+      "nodeID": 396,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 397,
-      "label": "L-glutamate"
+      "nodeID": 397,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C03972",
-      "name": 398,
-      "label": "2,3,4,5-tetrahydrodipicolinate"
+      "nodeID": 398,
+      "nodeTextEng": "2,3,4,5-tetrahydrodipicolinate"
     },
     {
       "image": "biological_images/C04876",
-      "name": 399,
-      "label": "L-lysine"
+      "nodeID": 399,
+      "nodeTextEng": "L-lysine"
     },
     {
-      "name": 400,
-      "label": "dihydrodipicolinate synthase"
+      "nodeID": 400,
+      "nodeTextEng": "dihydrodipicolinate synthase"
     },
     {
-      "name": 401,
-      "label": "dihydrodipicolinate reductase"
+      "nodeID": 401,
+      "nodeTextEng": "dihydrodipicolinate reductase"
     },
     {
-      "name": 402,
-      "label": "2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
+      "nodeID": 402,
+      "nodeTextEng": "2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase"
     },
     {
-      "name": 403,
-      "label": "succinyldiaminopimelate transaminase"
+      "nodeID": 403,
+      "nodeTextEng": "succinyldiaminopimelate transaminase"
     },
     {
-      "name": 404,
-      "label": "succinyl-diaminopimelate desuccinylase"
+      "nodeID": 404,
+      "nodeTextEng": "succinyl-diaminopimelate desuccinylase"
     },
     {
-      "name": 405,
-      "label": "Diaminopimelate epimerase"
+      "nodeID": 405,
+      "nodeTextEng": "Diaminopimelate epimerase"
     },
     {
-      "name": 406,
-      "label": "Diaminopimelate decarboxylase"
+      "nodeID": 406,
+      "nodeTextEng": "Diaminopimelate decarboxylase"
     },
     {
-      "name": 407,
-      "label": "LL-diaminopimelate aminotransferase"
+      "nodeID": 407,
+      "nodeTextEng": "LL-diaminopimelate aminotransferase"
     },
     {
       "image": "biological_images/C03340",
-      "name": 408,
-      "label": "2,3-dihydrodipicolinate"
+      "nodeID": 408,
+      "nodeTextEng": "2,3-dihydrodipicolinate"
     },
     {
-      "name": 409,
-      "label": "N-succinyl-2-amino-6-oxoheptanedioate"
+      "nodeID": 409,
+      "nodeTextEng": "N-succinyl-2-amino-6-oxoheptanedioate"
     },
     {
-      "name": 410,
-      "label": "N-succinyl-2,6-diaminoheptanedioate"
+      "nodeID": 410,
+      "nodeTextEng": "N-succinyl-2,6-diaminoheptanedioate"
     },
     {
-      "name": 411,
-      "label": "2,6-diaminoheptanedioate"
+      "nodeID": 411,
+      "nodeTextEng": "2,6-diaminoheptanedioate"
     },
     {
       "image": "biological_images/C00680",
-      "name": 412,
-      "label": "meso-diaminoheptanedioate"
+      "nodeID": 412,
+      "nodeTextEng": "meso-diaminoheptanedioate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 413,
-      "label": "L-glutamate"
+      "nodeID": 413,
+      "nodeTextEng": "L-glutamate"
     },
     {
       "image": "biological_images/C00711",
-      "name": 414,
-      "label": "malate"
+      "nodeID": 414,
+      "nodeTextEng": "malate"
     },
     {
       "image": "biological_images/C01602",
-      "name": 415,
-      "label": "ornithine"
+      "nodeID": 415,
+      "nodeTextEng": "ornithine"
     },
     {
       "image": "biological_images/C00036",
-      "name": 416,
-      "label": "oxaloacetate"
+      "nodeID": 416,
+      "nodeTextEng": "oxaloacetate"
     },
     {
       "image": "biological_images/C00065",
-      "name": 417,
-      "label": "L-serine"
+      "nodeID": 417,
+      "nodeTextEng": "L-serine"
     },
     {
       "image": "biological_images/C00711",
-      "name": 418,
-      "label": "malate"
+      "nodeID": 418,
+      "nodeTextEng": "malate"
     },
     {
       "image": "biological_images/C00022",
-      "name": 419,
-      "label": "pyruvate"
+      "nodeID": 419,
+      "nodeTextEng": "pyruvate"
     },
     {
-      "name": 420,
-      "label": "chorismate "
+      "nodeID": 420,
+      "nodeTextEng": "chorismate "
     },
     {
-      "name": 421,
-      "label": "3-phospho-glycerate"
+      "nodeID": 421,
+      "nodeTextEng": "3-phospho-glycerate"
     },
     {
       "image": "biological_images/C00441",
-      "name": 422,
-      "label": "L-aspartate 4-semialdehyde"
+      "nodeID": 422,
+      "nodeTextEng": "L-aspartate 4-semialdehyde"
     },
     {
       "image": "biological_images/C01102",
-      "name": 423,
-      "label": "O-phospho-L-homoserine"
+      "nodeID": 423,
+      "nodeTextEng": "O-phospho-L-homoserine"
     },
     {
       "image": "biological_images/C00188",
-      "name": 424,
-      "label": "L-threonine"
+      "nodeID": 424,
+      "nodeTextEng": "L-threonine"
     },
     {
       "image": "biological_images/C00022",
-      "name": 425,
-      "label": "pyruvate"
+      "nodeID": 425,
+      "nodeTextEng": "pyruvate"
     },
     {
       "image": "biological_images/C00097",
-      "name": 426,
-      "label": "L-cysteine"
+      "nodeID": 426,
+      "nodeTextEng": "L-cysteine"
     },
     {
       "image": "biological_images/C00111",
-      "name": 427,
-      "label": "dihydroxyacetone phosphate"
+      "nodeID": 427,
+      "nodeTextEng": "dihydroxyacetone phosphate"
     },
     {
       "image": "biological_images/C00025",
-      "name": 428,
-      "label": "L-glutamate"
+      "nodeID": 428,
+      "nodeTextEng": "L-glutamate"
     },
     {
-      "name": 429,
-      "label": "homoserine"
+      "nodeID": 429,
+      "nodeTextEng": "homoserine"
     },
     {
-      "name": 430,
-      "label": "glyceraldehyde 3-phosphate"
+      "nodeID": 430,
+      "nodeTextEng": "glyceraldehyde 3-phosphate"
     },
     {
       "image": "biological_images/C00074",
-      "name": 431,
-      "label": "phosphoenolpyruvate"
+      "nodeID": 431,
+      "nodeTextEng": "phosphoenolpyruvate"
     },
     {
       "image": "biological_images/C00119",
-      "name": 432,
-      "label": "PRPP"
+      "nodeID": 432,
+      "nodeTextEng": "PRPP"
     }
   ],
   "links": [
