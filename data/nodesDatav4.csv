@@ -1,125 +1,115 @@
-﻿nodeID,nodeTextEng,nodeType
-1,You approach the border. How do you enter?,Root
-2,Go to a port of entry,Answer
-3,Cross the border between ports of entry,Answer
-4,Do you have a visa to enter the US?,Question
-4Y,Yes,Answer
-4N,No,Answer
-5,Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?,Question
-5Y,Yes,Answer
-5N,No,Answer
-6,Processed at port of entry by CBP OFO,Process
-7,Are you put on parole + ATD or issued a Notice to Appear?,Question
-7Y,Yes,Answer
-7N,No,Answer
-8,Non-detained Immigration Court process,Process
-9,Did/Can you apply for asylum or other form of relief?,Question
-9Y,Yes,Answer
-9N,No,Answer
-10,Did you win asylum or another form of relief?,Question
-10Y,Yes,Answer
-10N,No,Answer
-11,Can you appeal?,Question
-11Y,Yes,Answer
-11N,No,Answer
-12,Did you win your appeal?,Question
-12Y,Yes,Answer
-12N,No,Answer
-13,Title 8 ICE detention,Process
-14,Did/Can you request asylum or express fear of persecution?,Question
-14Y,Yes,Answer
-14N,No,Answer
-15,Did you pass the credible or reasonable fear interview?,Question
-15Y,Yes,Answer
-15N,No,Answer
-16,Did you pass IJ review?,Question
-16Y,Yes,Answer
-16N,No,Answer
-17,Did DHS choose to release you on parole?,Question
-17Y,Yes,Answer
-17N,No,Answer
-18,Are you eligible for bond?,Question
-18Y,Yes,Answer
-18N,No,Answer
-19,"Did you win your bond request, and can you pay for it?",Question
-19Y,Yes,Answer
-19N,No,Answer
-20,Were you taken into custody?,Question
-20Y,Yes,Answer
-20N,No,Answer
-21,Processed between ports of entry by Border Patrol,Process
-22,Do you have a prior deportation order?,Question
-22Y,Yes,Answer
-22N,No,Answer
-23,Do you have a felony prosecution?,Question
-23Y,Yes,Answer
-23N,No,Answer
-24,Are you an unaccompanied child?,Question
-24Y,Yes,Answer
-24N,No,Answer
-25,Are you from Mexico?,Question
-25Y,Yes,Answer
-25N,No,Answer
-26,Are you a victim of trafficking?,Question
-26Y,Yes,Answer
-26N,No,Answer
-27,Are you part of a Family Unit?,Question
-27Y,Yes,Answer
-27N,No,Answer
-28,Did you cross in South Texas with a child under 7?,Question
-28Y,Yes,Answer
-28N,No,Answer
-29,You are transferred to ORR custody,Process
-30,Do you have a sponsor inside the US?,Question
-30Y,Yes,Answer
-30N,No,Answer
-31,"Does DHS have logistical capacity to expel you, and there are no other obstacles such as physical health that prevent expulsion?",Question
-31Y,Yes,Answer
-31N,No,Answer
-32,"Are you Mexican, Guatemalan, Honduran, Salvadoran, or Venezuelan?",Question
-32Y,Yes,Answer
-32N,No,Answer
-33,Does your country accept Title 42 deportation flights?,Question
-33Y,Yes,Answer
-33N,No,Answer
-34,Were you picked up in the Rio Grande Valley?,Question
-34Y,Yes,Answer
-34N,No,Answer
-35,Title 8,Process
-36,Does DHS have the capacity to send you to detention?,Question
-36Y,Yes,Answer
-36N,No,Answer
-37,"Do you intend to reside in Boston, Miami, New York City, Newark, San Francisco, Los Angeles, Chicago, Washington, DC, or New Orleans?",Question
-37Y,Yes,Answer
-37N,No,Answer
-38,Asylum processing rule likely applies,Process
-39,Did you pass the credible or reasonable fear interview within the asylum processing rule?,Question
-39Y,Yes,Answer
-39N,No,Answer
-40,Your Asylum Merits Interview (AMI) occurs within 21-45 days of you credible fear interview. You must submit any evidence 7-10 days before your AMI.,Process
-41,Are you granted asylum?,Question
-41Y,Yes,Answer
-41N,No,Answer
-??5,??,??
-??23,??,??
-??26,??,??
-??30,??,??
-??37,??,??
-??41,??,??
-T01,Asylum,Terminus
-T02,Granted relief,Terminus
-T03,Issued order of removal,Terminus
-T04,Inside the US without authorization,Terminus
-T05,Title 42 to a country other than Mexico,Terminus
-T06,Title 42 back to Mexico,Terminus
-T07,Apply for asylum affirmatively with USCIS,Terminus
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
+﻿nodeType,nodeID,nodeTextEng
+Root,1,You approach the border. How do you enter?
+Answer,2,Go to a port of entry
+Answer,3,Cross the border between ports of entry
+Question,4,Do you have a visa to enter the US?
+Answer,4Y,Yes
+Answer,4N,No
+Question,5,Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?
+Answer,5Y,Yes
+Answer,5N,No
+Process,6,Processed at port of entry by CBP OFO
+Question,7,Are you put on parole + ATD or issued a Notice to Appear?
+Answer,7Y,Yes
+Answer,7N,No
+Process,8,Non-detained Immigration Court process
+Question,9,Did/Can you apply for asylum or other form of relief?
+Answer,9Y,Yes
+Answer,9N,No
+Question,10,Did you win asylum or another form of relief?
+Answer,10Y,Yes
+Answer,10N,No
+Question,11,Can you appeal?
+Answer,11Y,Yes
+Answer,11N,No
+Question,12,Did you win your appeal?
+Answer,12Y,Yes
+Answer,12N,No
+Process,13,Title 8 ICE detention
+Question,14,Did/Can you request asylum or express fear of persecution?
+Answer,14Y,Yes
+Answer,14N,No
+Question,15,Did you pass the credible or reasonable fear interview?
+Answer,15Y,Yes
+Answer,15N,No
+Question,16,Did you pass IJ review?
+Answer,16Y,Yes
+Answer,16N,No
+Question,17,Did DHS choose to release you on parole?
+Answer,17Y,Yes
+Answer,17N,No
+Question,18,Are you eligible for bond?
+Answer,18Y,Yes
+Answer,18N,No
+Question,19,"Did you win your bond request, and can you pay for it?"
+Answer,19Y,Yes
+Answer,19N,No
+Question,20,Were you taken into custody?
+Answer,20Y,Yes
+Answer,20N,No
+Process,21,Processed between ports of entry by Border Patrol
+Question,22,Do you have a prior deportation order?
+Answer,22Y,Yes
+Answer,22N,No
+Question,23,Do you have a felony prosecution?
+Answer,23Y,Yes
+Answer,23N,No
+Question,24,Are you an unaccompanied child?
+Answer,24Y,Yes
+Answer,24N,No
+Question,25,Are you from Mexico?
+Answer,25Y,Yes
+Answer,25N,No
+Question,26,Are you a victim of trafficking?
+Answer,26Y,Yes
+Answer,26N,No
+Question,27,Are you part of a Family Unit?
+Answer,27Y,Yes
+Answer,27N,No
+Question,28,Did you cross in South Texas with a child under 7?
+Answer,28Y,Yes
+Answer,28N,No
+Process,29,You are transferred to ORR custody
+Question,30,Do you have a sponsor inside the US?
+Answer,30Y,Yes
+Answer,30N,No
+Question,31,"Does DHS have logistical capacity to expel you, and there are no other obstacles such as physical health that prevent expulsion?"
+Answer,31Y,Yes
+Answer,31N,No
+Question,32,"Are you Mexican, Guatemalan, Honduran, Salvadoran, or Venezuelan?"
+Answer,32Y,Yes
+Answer,32N,No
+Question,33,Does your country accept Title 42 deportation flights?
+Answer,33Y,Yes
+Answer,33N,No
+Question,34,Were you picked up in the Rio Grande Valley?
+Answer,34Y,Yes
+Answer,34N,No
+Process,35,Title 8
+Question,36,Does DHS have the capacity to send you to detention?
+Answer,36Y,Yes
+Answer,36N,No
+Question,37,"Do you intend to reside in Boston, Miami, New York City, Newark, San Francisco, Los Angeles, Chicago, Washington, DC, or New Orleans?"
+Answer,37Y,Yes
+Answer,37N,No
+Process,38,Asylum processing rule likely applies
+Question,39,Did you pass the credible or reasonable fear interview within the asylum processing rule?
+Answer,39Y,Yes
+Answer,39N,No
+Process,40,Your Asylum Merits Interview (AMI) occurs within 21-45 days of you credible fear interview. You must submit any evidence 7-10 days before your AMI.
+Question,41,Are you granted asylum?
+Answer,41Y,Yes
+Answer,41N,No
+??,??5,??
+??,??23,??
+??,??26,??
+??,??30,??
+??,??37,??
+??,??41,??
+Terminus,T01,Asylum
+Terminus,T02,Granted relief
+Terminus,T03,Issued order of removal
+Terminus,T04,Inside the US without authorization
+Terminus,T05,Title 42 to a country other than Mexico
+Terminus,T06,Title 42 back to Mexico
+Terminus,T07,Apply for asylum affirmatively with USCIS

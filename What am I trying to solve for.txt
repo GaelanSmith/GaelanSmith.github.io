@@ -1,0 +1,19 @@
+Trying to solve for:
+- get data switched over
+
+remove all references to image?
+change IDs to numbers?
+
+
+
+
+
+
+
+
+"Do you want to give up yet?"
+- you've been detained for a year, do you want voluntary departure?
+
+
+Parallel development
+- update flow chart after we know technically that we can do this

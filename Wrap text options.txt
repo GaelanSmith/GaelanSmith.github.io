@@ -1,0 +1,8 @@
+document.getElementById("splitText").innerHTML = result;
+
+function wrap (s, w) { 
+	var wrapped = s.replace(new RegExp((?![^\\n]{1,${width}}$)(([^\n]{1,${width}})((?:\\s)|-)), 'g'), '$1\n'); 
+  return wrapped.replace(new RegExp('(?!-$)(-)', 'gm'), '')) 
+  }
+  
+ wrap(str, 40);

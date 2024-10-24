@@ -1,0 +1,14 @@
+{
+  "name": "@nitaku/tangled-tree-visualization-ii",
+  "main": "4cab522856cbfdde@670.js",
+  "version": "670.0.0",
+  "homepage": "https://observablehq.com/@nitaku/tangled-tree-visualization-ii",
+  "author": {
+    "name": "Matteo Abrate",
+    "url": "https://observablehq.com/@nitaku"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
