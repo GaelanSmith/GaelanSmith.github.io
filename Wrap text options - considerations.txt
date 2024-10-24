@@ -1,0 +1,14 @@
+If width of one node overlaps another, push them apart
+
+staggering y for more space
+
+
+if a line is more than 30 char, split at the last space
+"the words I've seen for this line add up to 30, so now move to a new line"
+start with character width, could change to pixel width later
+
+var linksTweaked
+- parentNode -10
+- sourceNode +10
+for loop through links
+.data(links) -> linksTweaked

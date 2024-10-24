@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Metabolic pathway</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="main.css">
+    //<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body onload="parseDunnart()">
+    <h1>Metabolic Pathway: Sucrose Breakdown</h1>
+<script src="../extern/d3.v3.js"></script>
+<script src="../cola.min.js"></script>
+<script>
+    var sourceData = 
+  [{
+    childID: "1",
+    nodeTextEng: "You approach the border. How do you enter?",
+    nodeType: "Question",
+    parentID: []
+  },
+  {
+    childID: "2",
+    nodeTextEng: "Go to a port of entry",
+    nodeType: "Answer",
+    parentID: ["1"]
+  },
+  {
+    childID: "3",
+    nodeTextEng: "Cross the border between ports of entry",
+    nodeType: "Answer",
+    parentID: ["1"]
+  },
+  {
+    childID: "4",
+    nodeTextEng: "Do you have a visa to enter the US?",
+    nodeType: "Question",
+    parentID: ["2"]
+  },
+  {
+    childID: "4Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["4"]
+  },
+  {
+    childID: "4N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["4"]
+  },
+  {
+    childID: "5",
+    nodeTextEng: "Are you a vulnerable person in contact with an NGO or lawyer who can help you file a request for a Title 42 exemption?",
+    nodeType: "Question",
+    parentID: ["4N"]
+  },
+  {
+    childID: "5Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["5"]
+  },
+  {
+    childID: "5N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["5"]
+  },
+  {
+    childID: "6",
+    nodeTextEng: "Processed at port of entry by CBP OFO",
+    nodeType: "Process",
+    parentID: ["5Y"]
+  },
+  {
+    childID: "7",
+    nodeTextEng: "Are you put on parole + ATD or issued a Notice to Appear?",
+    nodeType: "Question",
+    parentID: ["6"]
+  },
+  {
+    childID: "7Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["7"]
+  },
+  {
+    childID: "7N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["7"]
+  },
+  // {
+  //   childID: "8",
+  //   nodeTextEng: "Non-detained Immigration Court process",
+  //   nodeType: "Process",
+  //   parentID: ["7Y", "17Y", "19Y", "28Y", "30Y", "36N"]
+  // },
+  {
+    childID: "8",
+    nodeTextEng: "Non-detained Immigration Court process",
+    nodeType: "Process",
+    parentID: ["7Y", "17Y", "19Y"]
+  },
+  {
+    childID: "9",
+    nodeTextEng: "Did/Can you apply for asylum or other form of relief?",
+    nodeType: "Question",
+    parentID: ["8"]
+  },
+  {
+    childID: "9Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["9"]
+  },
+  {
+    childID: "9N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["9"]
+  },
+  {
+    childID: "10",
+    nodeTextEng: "Did you win asylum or another form of relief?",
+    nodeType: "Question",
+    parentID: ["9Y", "18N", "19N"]
+  },
+  {
+    childID: "10Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["10"]
+  },
+  {
+    childID: "10N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["10"]
+  },
+  {
+    childID: "11",
+    nodeTextEng: "Can you appeal?",
+    nodeType: "Question",
+    parentID: ["10N"]
+  },
+  {
+    childID: "11Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["11"]
+  },
+  {
+    childID: "11N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["11"]
+  },
+  {
+    childID: "12",
+    nodeTextEng: "Did you win your appeal?",
+    nodeType: "Question",
+    parentID: ["11Y"]
+  },
+  {
+    childID: "12Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["12"]
+  },
+  {
+    childID: "12N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["12"]
+  },
+  // {
+  //   childID: "13",
+  //   nodeTextEng: "Title 8 ICE detention",
+  //   nodeType: "Process",
+  //   parentID: ["7N", "23Y", "36Y"]
+  // },
+  {
+    childID: "13",
+    nodeTextEng: "Title 8 ICE detention",
+    nodeType: "Process",
+    parentID: ["7N"]
+  },
+  {
+    childID: "14",
+    nodeTextEng: "Did/Can you request asylum or express fear of persecution?",
+    nodeType: "Question",
+    parentID: ["13"]
+  },
+  {
+    childID: "14Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["14"]
+  },
+  {
+    childID: "14N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["14"]
+  },
+  {
+    childID: "15",
+    nodeTextEng: "Did you pass the credible or reasonable fear interview?",
+    nodeType: "Question",
+    parentID: ["14Y"]
+  },
+  {
+    childID: "15Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["15"]
+  },
+  {
+    childID: "15N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["15"]
+  },
+  // {
+  //   childID: "16",
+  //   nodeTextEng: "Did you pass IJ review?",
+  //   nodeType: "Question",
+  //   parentID: ["15N", "39N"]
+  // },
+  {
+    childID: "16",
+    nodeTextEng: "Did you pass IJ review?",
+    nodeType: "Question",
+    parentID: ["15N"]
+  },
+  {
+    childID: "16Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["16"]
+  },
+  {
+    childID: "16N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["16"]
+  },
+  {
+    childID: "17",
+    nodeTextEng: "Did DHS choose to release you on parole?",
+    nodeType: "Question",
+    parentID: ["15Y", "16Y"]
+  },
+  {
+    childID: "17Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["17"]
+  },
+  {
+    childID: "17N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["17"]
+  },
+  {
+    childID: "18",
+    nodeTextEng: "Are you eligible for bond?",
+    nodeType: "Question",
+    parentID: ["17N"]
+  },
+  {
+    childID: "18Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["18"]
+  },
+  {
+    childID: "18N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["18"]
+  },
+  {
+    childID: "19",
+    nodeTextEng: "Did you win your bond request, and can you pay for it?",
+    nodeType: "Question",
+    parentID: ["18Y"]
+  },
+  {
+    childID: "19Y",
+    nodeTextEng: "Yes",
+    nodeType: "Answer",
+    parentID: ["19"]
+  },
+  {
+    childID: "19N",
+    nodeTextEng: "No",
+    nodeType: "Answer",
+    parentID: ["19"]
+  },
+    ];
+    
+    var width = 800,
+        height = 520;
+
+    var d3cola = cola.d3adaptor(d3)
+        .linkDistance(60)
+        .avoidOverlaps(true)
+        .size([width, height]);
+
+    var outer = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("pointer-events", "all");
+
+    outer.append('rect')
+        .attr('class', 'background')
+        .attr('width', "100%")
+        .attr('height', "100%")
+        .call(d3.behavior.zoom().on("zoom", redraw));
+
+    var vis = outer
+        .append('g')
+        .attr('transform', 'translate(80,80) scale(0.7)');
+
+    function redraw() {
+        vis.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
+    }
+
+    var groupsLayer = vis.append("g");
+    var nodesLayer = vis.append("g");
+    var linksLayer = vis.append("g");
+
+    var graph = {}, nodeLookup = {};
+    
+//HOLY SHIT! I think I could put my data in xml form and use that to manipulate the code below. See the Udemy on xml
+
+    function parseDunnart() {
+        var sbsvg = d3.select(sourceData);
+        // var sbsvg = d3.select(document.getElementById("embeddedsvg").contentDocument).select('svg');
+        graph.nodes = [];
+        sbsvg.selectAll('rect.shape').each(function (d, i) {
+            graph.nodes.push(
+                nodeLookup[this.id] = {
+                    label: this.attributes['sourceData.nodeTextEng'].value,
+                    dunnartid: this.id,
+                    index: i,
+                    width: 60,
+                    height: 40,
+                    x: parseFloat(this.attributes['x'].value),
+                    y: parseFloat(this.attributes['y'].value),
+                    rx: ('rx' in this.attributes) ? parseFloat(this.attributes['rx'].value) : 5,
+                    ry: ('ry' in this.attributes) ? parseFloat(this.attributes['ry'].value) : 5
+                }
+            );
+        });
+        graph.links = sbsvg.selectAll('.connector')[0].map(function (l) {
+            return { source: nodeLookup[l.attributes['dunnart:srcID'].value].index, target: nodeLookup[l.attributes['dunnart:dstID'].value].index }
+        });
+        graph.groups = sbsvg.selectAll('.cluster')[0].map(function (g) {
+            return {
+                leaves: g.attributes['dunnart:contains'].value.split(' ').map(function (i) { return nodeLookup[i].index }),
+                style: g.attributes['style'].value,
+                padding: 10
+            }
+        });
+        graph.constraints = [];
+        var constraintMap = {};
+        sbsvg.selectAll('[relType=alignment]').each(function () {
+            var cid = this.attributes['constraintID'].value;
+            var nodeid = nodeLookup[this.attributes['objOneID'].value].index;
+            var alignmentPos = this.attributes['alignmentPos'].value;
+            var o = { node: nodeid, offset: 0 };
+            if (cid in constraintMap) {
+                constraintMap[cid].offsets.push(o);
+            } else {
+                graph.constraints.push(constraintMap[cid] = {
+                    type: 'alignment',
+                    offsets: [o],
+                    axis: alignmentPos == 1 ? "y" : "x"
+                });
+            }
+        });
+
+        d3cola
+            .nodes(graph.nodes)
+            .links(graph.links)
+            .groups(graph.groups)
+            .constraints(graph.constraints)
+            .start();
+
+        // define arrow markers for graph links
+        outer.append('svg:defs').append('svg:marker')
+            .attr('id', 'end-arrow')
+            .attr('viewBox', '0 -5 10 10')
+            .attr('refX', 5)
+            .attr('markerWidth', 3)
+            .attr('markerHeight', 3)
+            .attr('orient', 'auto')
+          .append('svg:path')
+            .attr('d', 'M0,-5L10,0L0,5L2,0')
+            .attr('stroke-width', '0px')
+            .attr('fill', '#000');
+
+        var group = groupsLayer.selectAll(".group")
+            .data(graph.groups)
+          .enter().append("rect")
+            .attr("rx", 8).attr("ry", 8)
+            .attr("class", "group")
+            .attr("style", function (d) { return d.style; });
+
+        var link = linksLayer.selectAll(".link")
+            .data(graph.links)
+          .enter().append("line")
+            .attr("class", "link");
+        //var link = linksLayer.selectAll(".link")
+        //    .data(graph.links)
+        //  .enter().append('svg:path')
+        //    .attr("class", "link");
+
+        var margin = 6, pad = 12;
+        var node = nodesLayer.selectAll(".node")
+            .data(graph.nodes)
+          .enter().append("rect")
+            .attr("class", "node")
+            .attr("width", function (d) { return d.width + 2 * pad + 2 * margin; })
+            .attr("height", function (d) { return d.height + 2 * pad + 2 * margin; })
+            .attr("rx", function (d) { return d.rx; }).attr("ry", function (d) { return d.rx; })
+            .call(d3cola.drag);
+
+        var label = nodesLayer.selectAll(".label")
+            .data(graph.nodes)
+           .enter().append("text")
+            .attr("class", "label")
+            .call(d3cola.drag);
+
+        var insertLinebreaks = function (d) {
+            var el = d3.select(this);
+            var words = d.label.split(' ');
+            el.text('');
+
+            for (var i = 0; i < words.length; i++) {
+                var tspan = el.append('tspan').text(words[i]);
+                tspan.attr('x', 0).attr('dy', '15')
+                     .attr("font-size", "12");
+            }
+        };
+
+        label.each(insertLinebreaks);
+
+        node.append("title")
+            .text(function (d) { return d.label; });
+
+        d3cola.on("tick", function () {
+            node.each(function (d) {
+                d.innerBounds = d.bounds.inflate(- margin);
+            });
+            link.each(function (d) {
+                d.route = cola.makeEdgeBetween(d.source.innerBounds, d.target.innerBounds, 5);
+                if (isIE())  this.parentNode.insertBefore(this, this);
+            });
+
+            link.attr("x1", function (d) { return d.route.sourceIntersection.x; })
+                .attr("y1", function (d) { return d.route.sourceIntersection.y; })
+                .attr("x2", function (d) { return d.route.arrowStart.x; })
+                .attr("y2", function (d) { return d.route.arrowStart.y; });
+
+            label.each(function (d) {
+                var b = this.getBBox();
+                d.width = b.width + 2 * margin + 8;
+                d.height = b.height + 2 * margin + 8;
+            });
+
+            node.attr("x", function (d) { return d.innerBounds.x; })
+                .attr("y", function (d) { return d.innerBounds.y; })
+                .attr("width", function (d) { return d.innerBounds.width(); })
+                .attr("height", function (d) { return d.innerBounds.height(); });
+
+            group.attr("x", function (d) { return d.bounds.x; })
+                 .attr("y", function (d) { return d.bounds.y; })
+                .attr("width", function (d) { return d.bounds.width(); })
+                .attr("height", function (d) { return d.bounds.height(); });
+
+            label.attr("transform", function (d) {
+                return "translate(" + d.x + margin + "," + (d.y + margin - d.height/2) + ")";
+            });
+        });
+    }
+    function isIE() { return ((navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null))); }
+</script>
+    <p>
+        The graph above demonstrates alignment constraints and non-overlapping group and node boundaries.  The groups
+        highlight and keep separate specific functional partitions in the pathway.  Four alignment constraints are used
+        to arrange nodes involved in the cycle around the edges of a rectangle.  To biologists, cycles in these types of
+        pathways are very important because they represent continuous processes.  Another alignment is used to straighten
+        one particular path inside the green group.
+    </p>
+    <p>
+The image below is drawn by hand by a biologist with data from the <a href="http://www.genome.jp/kegg/pathway.html">Kegg Pathway Database</a>.
+Constraints allow us to capture in a live, automatically adjusting layout, the same kinds of drawing conventions that biologists (and others) like to see in textbook drawings
+of their networks.
+    </p>
+    <img src="sucrosebreakdown-handdrawn.png" width="500px" />
+    <p>
+        The SVG diagram below is used as the source for the nodes, edges and constraints used in the CoLa layout above.
+        It was originally authored in the <a href="http://www.csse.monash.edu.au/~mwybrow/dunnart/">Dunnart constraint-based diagram editor</a>.
+        Dunnart is great for interactively authoring the constraints and creating a semi-supervised layout, but obviously web-based constraint
+        layout is easier to deploy!  Have a look at the source of this page to see how to extract the graph and constraints from the
+        Dunnart generated SVG.
+    </p>
+    <object id="embeddedsvg" data="graphdata/SucroseBreakdownDicots-flowlayout.svg" type="image/svg+xml" width="500ox" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63535113-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+function myFunction() {
+  var str = "This is extremely long text that has some stupendously long words in it, and I'm trying to get the damn thing to break properly."
+  
+  //var str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book";
+   //var str = "LoremIpsumissimplydummytextoftheprintingandtypeset tingindustry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimensdfdfdfdfsdsds book";
+  var originalStr = str;
+  str = splitString(str);
+  document.getElementById("demo").innerHTML = str;
+}
+function splitString(str)
+{
+    var originalStr = str;
+      var charLimit = 10;
+      var slicedStringList = [];
+      var flag = 1;
+      while(flag)
+      {
+        if(str.length <= charLimit)
+        {
+          slicedStringList.push(str);
+          flag=0;
+        }
+        else
+        {
+          var tempChar = str[charLimit]
+          if(tempChar == ' ' || tempChar == '\n' || tempChar == '\r')
+          {
+            slicedStringList.push(str.substring(0,charLimit));
+            str = str.substring(charLimit + 1, originalStr.length);
+          }
+          else
+          {
+            var tempStr = str.substring(0, charLimit);
+            var nearestSpace = tempStr.lastIndexOf(" ");
+            if(nearestSpace >- 1)
+            {
+              slicedStringList.push(str.substring(0, nearestSpace));
+              str = str.substring(nearestSpace + 1, originalStr.length);
+            }
+            else
+            {
+              slicedStringList.push(tempStr);
+              str = str.substring(charLimit + 1, originalStr.length);
+            }
+          }
+        }
+         
+      }
+      var newString = slicedStringList.join("<br>");
+      return newString;
+}
